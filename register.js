@@ -9,8 +9,8 @@ var alchemilka = {
         vyskyt:"Alchemilka sa vyskytuje najmä v miernom podnebnom pásme Európy a západnej ázie, v severnej Afrike a vo východnej časti Severnej Ameriky. U nás rastie veľmi hojne od nížin až po horské oblasti na lúkach a pastvinách, pri prameniskách, vo svetlých vlhších lesoch, popri potokoch a cestách. Najľhšie ju nájdeme na horských lúkach."
     },
     zber:{
-        mesiace:[5,6,7,8,9],
-        casti:["listy", "kvitnúca vňať"],
+        mesiace:["5, ","6, ","7, ","8, ","9"],
+        casti:["listy, ", "kvitnúca vňať"],
         text:"Na liečebné účely sa od mája do septembra zbiera kvitnúca vňať a listy. Sušia sa prirodzene v tieni, pri umelom sušení by teplota nemala presiahnuť 40℃. Kvalitná droga si uchováva zelenú farbu a nedrobí sa."
     },
     liecba:{
