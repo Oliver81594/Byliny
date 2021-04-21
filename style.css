@@ -1,0 +1,19 @@
+#telo{
+    max-width: 95%;
+}
+.list-group-item{
+    margin-top: 10px;
+    border-width: 2px;
+}
+
+.bylina{
+    background-color: greenyellow;
+}
+
+.strom{
+    background-color: seagreen;
+}
+
+.ker{
+    background-color: olivedrab;
+}
