@@ -7,13 +7,38 @@
 }
 
 .bylina{
-    background-color: greenyellow;
+    background-color: #7CFC00;
 }
 
 .strom{
-    background-color: seagreen;
+    background-color: #228B22;
 }
 
 .ker{
-    background-color: olivedrab;
+    background-color: #808000;
+}
+
+.poloker{
+    background-color: #00FF7F;
+}
+
+.kstrom{
+    background-image: linear-gradient(to bottom right, #808000, #00FF7F, #228B22);
+}
+
+.stvorec{
+    width: 7%;
+    height: 50%;
+    position: absolute;
+    right: 5%;
+    bottom: 25%;
+}
+
+.btn-group{
+    width: 80%;
+}
+
+.nadpis{
+    position: absolute;
+    left: 2%;
 }
