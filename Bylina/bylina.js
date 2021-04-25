@@ -1,5 +1,10 @@
-cislo = Number(localStorage.getItem("PrisielSomZ"));
-var bylina = register[cislo];
+prisielSomZ = localStorage.getItem("PrisielSomZ");
+for (i = 0; i < register.length; i++){
+    if(prisielSomZ == register[i].zaklad.nazov){
+        var bylina = register[i];
+    }
+}
+
 
 var nadpis = document.getElementById("nadpis");
 var nazov = document.getElementById("popis.nadpis");
