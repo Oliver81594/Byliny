@@ -3,6 +3,13 @@ var menu = document.getElementById("menu")
 var check = [1,1,1,1,1,1]; //poradie: bylina, ker, strom, poleker, ker aj strom(kstrom), ostatné
 var dlzka = zoznam.length;
 
+var pocetB = 0, 
+    pocetK = 0, 
+    pocetS = 0, 
+    pocetPk = 0, 
+    pocetKs = 0, 
+    pocetO = 0;
+
 function priradID(){
     id = this.id;
     localStorage.setItem("PrisielSomZ", id);
@@ -29,26 +36,32 @@ function vypis(druhy){
     for (i = 0; i < dlzka; i++){
         if (zoznam[i][1] == "b" && druhy[0] == 1){
             pridajEl("bylina");
+            pocetB ++;
         }
         else{
             if (zoznam[i][1] == "k" && druhy[1] == 1){
                 pridajEl("ker");
+                pocetK ++;
             }
             else{
                 if (zoznam[i][1] == "s" && druhy[2] == 1){
                     pridajEl("strom");
+                    pocetS ++;
                 }
                 else{
                     if (zoznam[i][1] == "pk" && druhy[3] == 1){
                         pridajEl("poloker");
+                        pocetPk ++;
                     }
                     else{
                         if (zoznam[i][1] == "ks" && druhy[4] == 1){
                             pridajEl("kstrom");
+                            pocetKs ++;
                         }
                         else{
                             if (zoznam[i][1] == "" && druhy[5] == 1){
                                 pridajEl("");
+                                pocetO ++;
                             }
                         }
                     }

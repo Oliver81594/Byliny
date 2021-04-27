@@ -1,3 +1,11 @@
 #telo{
     width: 95%;
 }
+
+#upozornenieDiv{
+    opacity: 0;
+}
+
+.pozor{
+    background-color: lightcoral;
+}

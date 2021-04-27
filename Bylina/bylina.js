@@ -18,6 +18,8 @@ var fandly = document.getElementById("fandly");
 var recept = document.getElementById("recept");
 var ingrediencie = document.getElementById("ingrediencie");
 var receptNazov = document.getElementById("recept.nazov");
+var upozornenieText = document.getElementById("upozornenieText");
+var upozornenieDiv = document.getElementById("upozornenieDiv");
 nadpis.textContent = bylina.zaklad.nazov;
 nazov.textContent = bylina.zaklad.latinsky;
 popis.textContent = bylina.opis.popis;
@@ -27,7 +29,7 @@ liecitelstvo.textContent = bylina.liecba.liecitelstvo;
 fandly.textContent = bylina.liecba.fandly;
 receptNazov.textContent = bylina.recept.nazov;
 recept.textContent = bylina.recept.priprava;
-
+upozornenieText.textContent = bylina.upozornenie.text;
 
 for(i = 0; i < bylina.zber.mesiace.length; i++){
     mesiac = document.createElement("i");
@@ -48,5 +50,5 @@ for(i = 0; i < bylina.recept.ingrediencie.length; i++){
 }
 
 if (bylina.upozornenie.x == 1){
-    console.log("p");
+    upozornenieDiv.style.opacity = 1;
 }

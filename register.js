@@ -1,4 +1,5 @@
-var vzor = {
+var vzor = 
+{
     zaklad:{
         nazov:"",
         latinsky:"",
@@ -96,16 +97,45 @@ var register = [
         },
         liecba:{
             liecitelstvo:"Koreň a plody archangeliky už v stredoveku patrili k povzbudzujúcim prostriedkom na trávenie -  zvyšujú tvorbu žalúdočných šťiav a upokojujú črevá. Archangelika je močopudná a uľahčuje odkašliavanie. Celkovo posilňuje a tonizuje, pomáha pri nervovom vyčerpaní, hystérii a nespavosti, pridáva sa do relaxačných a revitalizujúcich kúpeľov. Vhodná je ako kloktadlo pri zápaloch ústnej dutiny, obklady z odvaru sa používajú pri svalových bolestiach. Obľúbená je aj ako zelené korenie do polievok alebo v cukrárstve, kde sa kandizuu mladé výhonky, využíva sa i pri výrobe žalúdočných likérov. Prášková droga z podzemku býva prísadou do šňupacieho tabaku.",
-            fandly:"",
+            fandly:"Archangelika je výborná medicína nielen proti morovej nákaze, ale aj proti všelijakým jedom. Užíva sa aj jej koreň. Je to taká výborná bylina, že niet tých peňazí, ktorými by sa dala zaplatiť. Vyháňa jed, rozdeľuje krv, zohrieva život [brucho], chráni pred morovou nákazou, hasí horúčnosti a pálčivosti atď. Rozháňa nadúvanie, studenú zimnicu, ťažobu na prsiach i na žalúdku, kašeľ, ak sa prežúva v ústach. Mierni bolesť zubov a hojí pohryzenie besným psom, ak sa priloží na ranu. Urob si z nej prášok, zmiešaj ho s cukrom a tak užívaj. Namoč ju do vína alebo do páleného a pi ráno aj večer.",
         },
         recept:{
-            nazov:"",
-            ingrediencie:["", ""],
-            priprava:""
+            nazov:"Posilňujúci a upokojujúci kúpeľ",
+            ingrediencie:["100g nakrájaného sušeného koreňa", "2l vody"],
+            priprava:"Koreň zalejeme studenou vodou, uvedieme do varu a varíme 10 až 15 minút. Necháme ešte 15 minút lúhovať, precedíme a vlejeme do kúpeľa, ktorý je vhodný najmä pri myalgiách."
         },
         upozornenie:{
             x:1,
             text:"Vo veľkých dávkach môze spočiatku pôsobiť povzbudzujúco, ale neskôr ochromuje centrálnu nervovú sústavu. U citlivých osôb vyvoláva čerstva šťavaprecitlivenosť na slnko, alergické vyrážky a opuchy."
+        }
+    },
+    {
+        zaklad:{
+            nazov:"Arnika horská",
+            latinsky:"Arnica montana",
+            strana:"14"
+        },
+        opis:{
+            popis:"Arnika horská je trváca bylina s plazivým valcovitým podzemkom, z ktorého vyrastá ružica prízemných vajcovitých listov. Stonka býva riedko rozkonárená a dosahuje výšku 10 až 60 cm. Súkvetia sú vrcholové úbory s priemerom 4 až 8 cm, zložené z oranžovožltých kvetov. Kvitne od júna do augusta. Plod je nažka s chocholcom.",
+            vyskyt:"Druh sa vyskytuje len v Európe, najmä v hornatejších polohách na lúkach, pastvinách, vresoviskách, trávnatých stráňach, na lesných čistinách či v kosodrevine. U nás sa arnika pestuje na zber v malom."
+        },
+        zber:{
+            mesiace:["6, ", "7, ", "8, ", "9, ", "10"],
+            casti:["koreň/podzemok, ", "kvet"],
+            text:"Najčastejšie zbierame celé úbory, niekedy iba kvety, výnimočne podzemok s koreňmi. Dbáme na to, aby súkvetia neodkvitali, na zber sa vyberáme od júna do augusta. Sušíme v tieni spravidla umelo pri teplote do 40℃. Podzemok sa zbiera po odkvitnutí v septembri a v októbri, pozdĺžne sa rozkrojí a suší sa v tieni."
+        },
+        liecba:{
+            liecitelstvo:"Arnika horská patrí medzi veľmi cenné liečivé byliny. Používala sa na natieranie všetkých možných poranení, na reumatizmus, liečbu mŕtvice i vysokého tlaku. Podporuje činnosť žalúdka, čriev a obličiek, pôsobí antibioticky, antibakteriálne, antisepticky, proti plesniam a hubám, upravuje menštruačný cyklus. Má široké uplatnenie pri kardiologických ťažkostiach, zvyšuje krvný tlak, priamo pôsobí na srdcový sval, lieči anginu pectoris, žilovú nedostatočnosť. V tejto oblasti ju nemožno odporúčať na domácu liečbu, pretože nesprávne užívanie môže mať fatálne následky. Zvonka spoľahlivo a rýchlo podporuje hojenie rán, nikdy však nie otvorených a hlbokých poranení, odstraňuje vyrážky a reumatické bolesti, je súčasťou celého radu protizápalových a regeneračných krémov, pleťových vôd a prísad do kúpeľa.",
+            fandly:"Bylina má v sobě pryskyřice a oleje chutnající hořce; působí zvláštne na ústrojí zažívací. Na kůži zpúsobí květy čerstvé svrbění a pálení. Kořen má podobný účinek. Užívá se zvláště v horké nemoci a v zimnici; též proti vodnatelosti a plícním chorobám; jindy též se jí užívalo proti úplavici, křečím, krvotokům, hostci aj. Hodí se výborně proti ochrnutí, zhmožděnině a mrtvici. Zevňe dáva sa květ svářený neb listí k zahřívání při ochrnutí neb ořesení; také tinktura se v takovém případe potřebuje.",
+        },
+        recept:{
+            nazov:"Arnikový olej",
+            ingrediencie:["2 až 3 hrste čerstvých arnikových úborov", ""],
+            priprava:"Úbory natlačíme do fľaše - najvhodnejšia j so širokým zabrúseným hrdlom -, vzduchotesne ju uzatvoríme a položíme na slnečný okenný parapet. Po niekoľkých dňoch sa na dne objaví oranžová tekutin, ktorá obsahuje cenný komplex látok, tzv. arnikový olej. Je to veľmi účinný prostriedok an rany, popáleniny, vyrážky, vredy, zápaly, kĺby či žily."
+        },
+        upozornenie:{
+            x:1,
+            text:"Po požití veľkých dávok je rastlina jedovatá, dokonca smrteľne. Tehotné ženy by sa jej mali vyhýbať,  pretože prekrvuje panvové orgány, najmä maternicu. Nemožno ju odporúčať ani dojčiacim matkám. Zvonka môže u citlivých osôb vyvolať alergické reakcie."
         }
     }
 ];
