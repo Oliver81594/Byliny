@@ -15,14 +15,17 @@
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
-        <header id="menu">
+        <header>
             <br>
+            <div>
+                <textarea id="vyhladavac" class="hladaj" name="textarea" id="textarea" cols="15" rows="1" placeholder="Hľadať"></textarea>
+            </div>
             <h3 class="display-6 nadpis">Hlavné druhy:</h3>
             <br>
             <br>
             <br>
             <center>
-                <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                <div class="btn-group menu" role="group" aria-label="Basic checkbox toggle button group">
                     <input type="checkbox" class="btn-check" id="bylinaCheck" autocomplete="off">
                     <label class="btn btn-outline-primary" for="bylinaCheck">
                         Byliny
@@ -49,7 +52,7 @@
             <br>
             <br>
             <center>
-                <div class="btn-group" id="menu" role="group" aria-label="Basic checkbox toggle button group">
+                <div class="btn-group menu" id="menu" role="group" aria-label="Basic checkbox toggle button group">
                     <input type="checkbox" class="btn-check" id="polokerCheck" autocomplete="off">
                     <label class="btn btn-outline-primary" for="polokerCheck">
                         Polokry
@@ -72,12 +75,17 @@
         <br>
         <center>
             <div id="telo">
-                <div class="list-group" id="register">
+                <div class="list-group" id="index">
                 </div>
             </div>
         </center>
+        <br>
+        <br>
+        <br>
+        <br>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="register.js"></script>
         <script src="app.js"></script>
+        <script src="hladanie.js"></script>
     </body>
 </html>

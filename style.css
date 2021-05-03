@@ -41,4 +41,16 @@
 .nadpis{
     position: absolute;
     left: 2%;
+    max-width: 50%;
+}
+
+#vyhladavac{
+    position: absolute;
+    right: 2%;
+}
+
+.hladaj{
+    position: absolute;
+    top: 2%;
+    right: 1%;
 }

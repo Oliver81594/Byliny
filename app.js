@@ -1,5 +1,5 @@
-var register = document.getElementById("register");
-var menu = document.getElementById("menu")
+var index = document.getElementById("index");
+var menu = document.getElementsByClassName("menu");
 var check = [1,1,1,1,1,1]; //poradie: bylina, ker, strom, poleker, ker aj strom(kstrom), ostatné
 var dlzka = zoznam.length;
 
@@ -16,8 +16,8 @@ function priradID(){
 }
 
 function zmaz() {
-    while (register.firstChild) {
-        register.removeChild(register.firstChild);
+    while (index.firstChild) {
+        index.removeChild(index.firstChild);
     }
 }
 
@@ -29,7 +29,7 @@ function pridajEl(klas){   //funkcia prida element s nazvom rastliny - klas(clas
         meno.textContent = zoznam[i][0];
         meno.setAttribute("id", zoznam[i][0]);
         meno.addEventListener("click", priradID);
-        register.append(meno);
+        index.append(meno);
 }
 
 function vypis(druhy){
@@ -107,7 +107,10 @@ function zmena(){
     vypis(check);
 }
 
+
+
 vypis(check);
 check = [0,0,0,0];
 
-menu.addEventListener("click", zmena);
+menu[0].addEventListener("click", zmena);
+menu[1].addEventListener("click", zmena);

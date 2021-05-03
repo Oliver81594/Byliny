@@ -29,7 +29,7 @@ var vzor =
     }
 }
 var zoznam =   [["Alchemilka obyčajná","b"], ["Archangelika lekárska", "b"], ["Arnika horská", "b"],
-                ["Baza čierna","ks"], ["Bazalka pravá", "b"], ["Bedrovník anízový", "b"], ["Bedrovník väčší", "b"], ["Blen čierny", "b"], ["Bolehlav škvrnitý", ""], ["Borievka obyčajná", "s"], ["Borovica lesná", "s"], ["Brečtan popínavý", ""], ["Breza previsnutá", "s"], ["Brusnica čučoriedková", "k"], ["Brusnica obyčajná", "pk"], ["Buk lesný", "s"],
+                ["Baza čierna","ks"], ["Bazalka pravá", "b"], ["Bedrovník anízový", "b"], ["Bedrovník väčší", "b"], ["Blen čierny", "b"], ["Bolehlav škvrnitý", ""], ["Borievka obyčajná", "ks"], ["Borovica lesná", "s"], ["Brečtan popínavý", ""], ["Breza previsnutá", "s"], ["Brusnica čučoriedková", "k"], ["Brusnica obyčajná", "pk"], ["Buk lesný", "s"],
                 ["Cesnak cibulový", "b"], ["Cesnak medvedí", "b"], ["Cyklamén purpurový", "b"], ["Čakanka obyčajná", "b"], ["Čemerica čierna", "b"], ["Čerešňa višňová", "ks"], ["Čiernohlávok obyčajný", "b"], 
                 ["Ďatelina lúčna", "b"], ["Deväťsil lekársky", "b"], ["Divozel sápovitý", "b"], ["Dráč obyčajný", "k"], ["Drieň obyčajný", "ks"], ["Dub letný", "s"], ["Dula podlhovastá", "s"], ["Durman obyčajný", "b"], ["Dúška materina", "pk"],
                 ["Fazuľa šarlátová", ""], ["Fenikel obyčajný", "b"], ["Fialka trojfarebná", "b"], 
@@ -136,6 +136,70 @@ var register = [
         upozornenie:{
             x:1,
             text:"Po požití veľkých dávok je rastlina jedovatá, dokonca smrteľne. Tehotné ženy by sa jej mali vyhýbať,  pretože prekrvuje panvové orgány, najmä maternicu. Nemožno ju odporúčať ani dojčiacim matkám. Zvonka môže u citlivých osôb vyvolať alergické reakcie."
+        }
+    },
+
+
+    
+    {
+        zaklad:{
+            nazov:"Borovica lesná",
+            latinsky:"Pinus sylvestris",
+            strana:"30"
+        },
+        opis:{
+            popis:"Borovica lesná (sosna), je strom dorastajúci do výšky približne 40m, s priemerom kmeňa asi 1m. Má mohutný koreňový systém s výrazným kolovitým hlavným koreňom a s množstvom bočných koreňov, čo jej ako pionierskej drevine umožňuje rásť aj na extrémnych stanovištiach. Mladé stromčeky majú červenohnedú kôru, neskôr sa pokrývajú sivohnedou rozpraskanou borkou. Ihlice sú zoskupené po dve do zväzkov a sú dlhé 5 až 7cm. žlté samčie kvety sú uložené v jahňadovitých šištičkách, samičie piestikovité šištičky sú obyčajne ružové. Kvitne v máji. Šišky sú pokryté drevnatými šupinami a ich vývoj od opelenia až po otvorenie a vypadanie semien trvá takmer tri roky.",
+            vyskyt:"Sosna je euroázijský strom a medzi stromovitými drevinami má najväčší areál rozšírenia na svete. Rastie pri mori aj vo výške 2700 m. n. m. na Kaukaze, od južného Španielska až za severnú polárnu kružnicu vo Švédsku a na Kamčatke, vyskytuje sa asi na tretine severnej pologule. U nás sa jej prirodzené stanovištia zmenšujú z dôvodu konkurencie borovice hladkej (vejmutovky) a borovice čiernej, ale bežne sa vysádza a pestuje v rámci lesného hospodárstva."
+        },
+        zber:{
+            mesiace:["1, ", "2, ", "3, ", "4, ", "5, ", "6, ", "7, ", "8, ", "9, ", "10, ", "11, ", "12"],
+            casti:["semená, ", "púčiky, ", "vňať, ", "živica", "listy, ", "kôra"],
+            text:"Púčiky zbierame v marci a v apríli pred rozvinutím, sušíme ich v tenkej vrstve v tieni. Majú výraznú vôňu. Skladujeme ich v dobre uzatvárateľných nádobách. Mladé výonkya šištičky zbierame v máji. Môžeme z nich pripravit sirup proti kašľu. Príležitostne počas celého roka zbierame živicu, na priamu spotrebu čerstvé ihličie alebo kôru. Semená zo zrelých šišiek získavame v zimných mesiacoch od novembra do marca."
+        },
+        liecba:{
+            liecitelstvo:"Podľa starých herbárov sa na liečebné účely dala použit prakticky akákoľvek časť borovice - púčiky, mladé výhonky a šištičky liečili kašeľ a suchoty (tuberkulózu), kúpeľ z nich sťahoval lono, poklesnutú maternicu či poklesnutý konečník. Borovicové jadierka pôsobili močopudne a dezinfekčne pri zápale obličiek či močového mechúra, olejom z nich sa natierali znehybnené kon%catiny po mŕtvici. Náplasti so živicou čistili vredy a rany. Kúpeľ v odvare z borovicového ihličia potláča bolesť svalov a chorých kĺbov. Drevené ihličie zmierňuje zápaly, hojí rany a vredy v ústach. Odvar z kôry zastavuje hnačku a podporuje močenie.",
+            fandly:"Proti boleniu zubov pomôžu mladé výhonky borovice, uvarené v octe, keď sa s ním vyplakujú ústa. Osobitný účinok na bolesti zubov má suchá smola z borovice. Pripravuje sa z nej štvoro liekov, jeden silnejši ako druhý. Napríklad vezmi na pokrievku dva-tri žeravé uhlíky, hoď na ne suchú smolu z borovice a hneď prilož lievik, aby sa dym mohol cezeň dostať až k boľavému zubu. Alebo vezmi slez, v ktorom si najskôr spálil usušenú smolu z borovice, pridaj rovnaké množstvo páleného vína a to drž teplé na zube a bolesť prestane.",
+        },
+        recept:{
+            nazov:"Posilňujúci kúpeľ",
+            ingrediencie:["1kg mladých výhonkov", "3l vody"],
+            priprava:"Výhonky povaríme asi 30 minút a scedíme. Odvar pridáme do kúpeľa. Prekrvuje pokožku, pomáha pri reumatizme a dne, zmierňuje bolesti svalov, má relaxačný účinok, zmierňuje stres depresie. Teplota kúpeľa nemá prekročiť 34℃ a trvať by mal najviac 20 minút"
+        },
+        upozornenie:{
+            x:1,
+            text:"Borovica nie je vhodná pre osoby so zápalom obličiek, pečene alebo tráviacej sústavy. Vo vyšších dávkach na citlivé osoby pôsobí dráždivo."
+        }
+    },
+
+
+
+    {
+        zaklad:{
+            nazov:"Borievka obyčajná",
+            latinsky:"Juniperus communis",
+            strana:"28"
+        },
+        opis:{
+            popis:"Borievka je ihličnatý vždyzelený ker či menší strom s jedným alebo niekoľkými  kmeňmi. Dosahuje výšku aj vyše 10m, ale častejšie sú nižšie exempláre do 2-3m. Ihlice sú sivozelené, vyradtajú v trojpočetných praslenoch, sú široké 1,5mm a dlhé 10-18mm. Kôra je spočiatku hladká, neskô rozpukaná, odlupuje sa vo vláknach. Samčie peľnicové kvety sú žlté a mnohotyčinkové, samičie pestikové kvety sú šiškovité a zelenkasté. Kvitne v apríli a v máji. Plod je guľovitá šišková bobuľa veľká do 1cm, spočiatku zelená a v čase dozrievania na konci druhého roka čiernomodrá, hnedá alebo červenohnedá. Borievka je dlhoveká, známe sú jedince staré vyše 2000 rokov.",
+            vyskyt:"Borievka je rozšírená na celej severnej pologuli, prenesená bola aj do Južnej Ameriky. U nás  ustupuje, vyskytuje sa roztrúsene vo slvetlých ihličnatých lesoch, na slnečných pastvinách, piesčinách, na skalnatých miestach, vresoviskách a slatinách, a to od nížin až po horské oblasti."
+        },
+        zber:{
+            mesiace:["2, ", "3, ", "10, ", "11"],
+            casti:["plody, ", "kôra"],
+            text:"Používajú sa najmä zreleé šiškové bobule, zriedkavomladá kôra či vrcholy konárikov. Bobule zbierame na jeseň v októbri a v novembri striasaním do plachiet, pred ďalším spracovaním odstránime zošuverené a nezrelé borievky. Kvalitné plody sušíme v tieni pri miernej teplote do 35℃. Pri zbere nezabúdame na ochranné rukavice."
+        },
+        liecba:{
+            liecitelstvo:"Plody (borievky) sú výrazne močopudné a antiseptické, takže sa využívajú pri zápaloch močových ciest alebo pri zadržiavaní tekutín v tele - borievkový éterický olej podnecuje činnosť obličiek. Zelpšujú trávenie, podporujú chuť do jedla a pôsobia proti plynatosti. Priaznivo ovplyvňujú látkovú premenu. Vďaka éterickým olejom s dezinfekčnými účinkami sa môžu užívať pri kašli a nachladnutí. Zvonka pomáhajú pri reumatizme, pri bolestiach kĺbov či chrbtice, pretože zvyšujú prekrvenie pokožky a pôsobia hojivo. Vyrába sa z nich olejový výťažok na natiranie, tinktúra, využívajú sa aj na výrobu destilátov (napríklad džinu, borovičky).",
+            fandly:"Borievky čistia prsia, pľúca, pečeň a obličky, vyháňajú piesok, odstraňujú hlien, chránia pred šľakom [porážkou] a závratom. Tieto zrnká ani nemožno dosť vynchváliť, robia priam zázraky, ak sa každé ráno užijú tri alebo štyri. Ale tehotné ženy nech sa chránia nielen zŕn, ale aj dymu z nich. Komu páchne z úst, nech si ráno a večer natrie hrianku borievkovým olejom a nech ju zje. Keď sa ústa vymývajú borievkami uvarenými s ružou v octe z červeného vína, pôsobia hojivo na každú bolesť zubov",
+        },
+        recept:{
+            nazov:"Borievková tinktúra",
+            ingrediencie:["za hrsť borievok", "1/2 l 40-60% alkoholu"],
+            priprava:"Borievky 2 týždne macerujeme v alkohole, až vznikne voňavá tinktúra. Užívame dva razy denne 10 kvapiek na kocke cukru alebo ňou potierame boľavé reumatické kĺby"
+        },
+        upozornenie:{
+            x:1,
+            text:"Vnútorné používanie borievky musí byť kontrolované, pretože popri priaznivých účinkoch dráždi obličky. Nie je vhodná pre tehotné ženy."
         }
     }
 ];
