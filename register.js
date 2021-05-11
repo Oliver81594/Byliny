@@ -28,6 +28,7 @@ var vzor =
         text:""
     }
 }
+
 var zoznam =   [["Alchemilka obyčajná","b"], ["Archangelika lekárska", "b"], ["Arnika horská", "b"],
                 ["Baza čierna","ks"], ["Bazalka pravá", "b"], ["Bedrovník anízový", "b"], ["Bedrovník väčší", "b"], ["Blen čierny", "b"], ["Bolehlav škvrnitý", ""], ["Borievka obyčajná", "ks"], ["Borovica lesná", "s"], ["Brečtan popínavý", ""], ["Breza previsnutá", "s"], ["Brusnica čučoriedková", "k"], ["Brusnica obyčajná", "pk"], ["Buk lesný", "s"],
                 ["Cesnak cibulový", "b"], ["Cesnak medvedí", "b"], ["Cyklamén purpurový", "b"], ["Čakanka obyčajná", "b"], ["Čemerica čierna", "b"], ["Čerešňa višňová", "ks"], ["Čiernohlávok obyčajný", "b"], 
@@ -62,8 +63,8 @@ var register = [
             vyskyt:"Alchemilka sa vyskytuje najmä v miernom podnebnom pásme Európy a západnej ázie, v severnej Afrike a vo východnej časti Severnej Ameriky. U nás rastie veľmi hojne od nížin až po horské oblasti na lúkach a pastvinách, pri prameniskách, vo svetlých vlhších lesoch, popri potokoch a cestách. Najľhšie ju nájdeme na horských lúkach."
         },
         zber:{
-            mesiace:["máj, ","jún, ","júl, ","august, ","september"],
-            casti:["listy, ", "kvitnúca vňať"],
+            mesiace:["máj","jún","júl","august","september"],
+            casti:["listy", "kvitnúca vňať"],
             text:"Na liečebné účely sa od mája do septembra zbiera kvitnúca vňať a listy. Sušia sa prirodzene v tieni, pri umelom sušení by teplota nemala presiahnuť 40℃. Kvalitná droga si uchováva zelenú farbu a nedrobí sa."
         },
         liecba:{
@@ -91,8 +92,8 @@ var register = [
             vyskyt:"Archangelika je rozšírená v chladnejších oblastiach Európy a severnej Ázie. Nájdeme ju pozdĺž lesných horských potokov, na čistinách, prameniskách a vlhkých lúkach. Na potreby farmaceutického a potravinárskeho priemyslu sa pestujú vyšľachtené kultivary."
         },
         zber:{
-            mesiace:["marec, ", "apríl, ", "august, ", "september, ", "október"],
-            casti:["koreň alebo podzemok, ", "plod"],
+            mesiace:["marec", "apríl", "august", "september", "október"],
+            casti:["koreň alebo podzemok", "plod"],
             text:"Podzemné časti dvojročných rastlín sa vykopávajú na jeseň (september - október), staršie rastliny možno zbierať aj skoro na jar (marec - apríl). Umyté podzemky sa sušia v tieni pri teplote do 35℃, priveľmi hrubé kúsky sa môžu rozpoliť. Sušíme iba sivohnedo alebo červenkasto sfarbené časti. Plody zbierame v auguste a v septembri odrezávaním zrelých okolíkov, po dosušení z nich semená vydrobíme a vytriedime. Vňať (mladé výhonky) zbierame v máji a v júni, sušia sa umelo pri teplote do 40℃."
         },
         liecba:{
@@ -120,8 +121,8 @@ var register = [
             vyskyt:"Druh sa vyskytuje len v Európe, najmä v hornatejších polohách na lúkach, pastvinách, vresoviskách, trávnatých stráňach, na lesných čistinách či v kosodrevine. U nás sa arnika pestuje na zber v malom."
         },
         zber:{
-            mesiace:["jún, ", "júl, ", "august, ", "september, ", "október"],
-            casti:["koreň/podzemok, ", "kvet"],
+            mesiace:["jún", "júl", "august", "september", "október"],
+            casti:["koreň/podzemok", "kvet"],
             text:"Najčastejšie zbierame celé úbory, niekedy iba kvety, výnimočne podzemok s koreňmi. Dbáme na to, aby súkvetia neodkvitali, na zber sa vyberáme od júna do augusta. Sušíme v tieni spravidla umelo pri teplote do 40℃. Podzemok sa zbiera po odkvitnutí v septembri a v októbri, pozdĺžne sa rozkrojí a suší sa v tieni."
         },
         liecba:{
@@ -152,8 +153,8 @@ var register = [
             vyskyt:"Sosna je euroázijský strom a medzi stromovitými drevinami má najväčší areál rozšírenia na svete. Rastie pri mori aj vo výške 2700 m. n. m. na Kaukaze, od južného Španielska až za severnú polárnu kružnicu vo Švédsku a na Kamčatke, vyskytuje sa asi na tretine severnej pologule. U nás sa jej prirodzené stanovištia zmenšujú z dôvodu konkurencie borovice hladkej (vejmutovky) a borovice čiernej, ale bežne sa vysádza a pestuje v rámci lesného hospodárstva."
         },
         zber:{
-            mesiace:["jaunuár, ", "február, ", "marec, ", "apríl, ", "máj, ", "jún, ", "júl, ", "august, ", "september, ", "október, ", "november, ", "december"],
-            casti:["semená, ", "púčiky, ", "vňať, ", "živica", "listy, ", "kôra"],
+            mesiace:["január", "február", "marec", "apríl", "máj", "jún", "júl", "august", "september", "október", "november", "december"],
+            casti:["semená", "púčiky", "vňať", "živica", "listy", "kôra"],
             text:"Púčiky zbierame v marci a v apríli pred rozvinutím, sušíme ich v tenkej vrstve v tieni. Majú výraznú vôňu. Skladujeme ich v dobre uzatvárateľných nádobách. Mladé výonkya šištičky zbierame v máji. Môžeme z nich pripravit sirup proti kašľu. Príležitostne počas celého roka zbierame živicu, na priamu spotrebu čerstvé ihličie alebo kôru. Semená zo zrelých šišiek získavame v zimných mesiacoch od novembra do marca."
         },
         liecba:{
@@ -168,6 +169,35 @@ var register = [
         upozornenie:{
             x:1,
             text:"Borovica nie je vhodná pre osoby so zápalom obličiek, pečene alebo tráviacej sústavy. Vo vyšších dávkach na citlivé osoby pôsobí dráždivo."
+        }
+    },
+    {
+        zaklad:{
+            nazov:"Breza previsnutá",
+            latinsky:"Betula pendula",
+            strana:"34"
+        },
+        opis:{
+            popis:"Breza je strom s elegantne prevísajúcimi konármi, vysoký až 25m. Borka na mladých konároch je hnedá, na starších striebristá, hladká, s hnedými priečnymi bradavicami, odlupuje sa v papierovitých pruhoch. V dolnej časti kmeňa je tmavohnedosivá, hrubo rozpukaná a kostrbatá. Listy sú na líci sviežozelené a na rube sivozelené, s pílkovitým okrajom. Kvety sú v jednopohlavných jahňadách, samčie sú sediace a dlhé 3 až 7cm, samičie sú stopkaté, s dĺžkou 1 až 2cm. Kvitne v apríli a v máji. Plod je nažka.",
+            vyskyt:"Breza previsnutá je rozšírená v celej Európe, na východe po celej Sibíri až do Kórey a Japonska. Je to nenáročná, často pionierska drevina, ktorá prirodzene rastie na sutinových svahoch, odlesnených plochách, navážkach alebo haldách hlušiny, preto sa s obľubou a cielene vysádza na rekultivované plochy. U nás je to bežný strom, rastie v lesoch a parkoch."
+        },
+        zber:{
+            mesiace:["marec", "apríl", "máj", "jún"],
+            casti:["miazga", "listy", "púčiky"],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
         }
     },
 

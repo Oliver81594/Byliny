@@ -33,13 +33,23 @@ upozornenieText.textContent = bylina.upozornenie.text;
 
 for(i = 0; i < bylina.zber.mesiace.length; i++){
     mesiac = document.createElement("i");
-    mesiac.textContent = bylina.zber.mesiace[i];
+    if (i > 0){
+        mesiac.textContent = ", " + bylina.zber.mesiace[i];
+    }
+    else{
+        mesiace.textContent = bylina.zber.mesiace[i];
+    }
     mesiace.append(mesiac);
 }
 
 for(i = 0; i < bylina.zber.casti.length; i++){
     cast = document.createElement("i");
-    cast.textContent = bylina.zber.casti[i];
+    if (i > 0){
+        cast.textContent = ", " + bylina.zber.casti[i];
+    }
+    else{
+        cast.textContent = bylina.zber.casti[i];
+    }
     casti.append(cast);
 }
 
