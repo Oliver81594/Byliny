@@ -139,8 +139,65 @@ var register = [
             text:"Po požití veľkých dávok je rastlina jedovatá, dokonca smrteľne. Tehotné ženy by sa jej mali vyhýbať,  pretože prekrvuje panvové orgány, najmä maternicu. Nemožno ju odporúčať ani dojčiacim matkám. Zvonka môže u citlivých osôb vyvolať alergické reakcie."
         }
     },
+    {
+        zaklad:{
+            nazov:"Baza čierna",
+            latinsky:"Sambucus nigra",
+            strana:"16"
+        },
+        opis:{
+            popis:"Baza čierna je husto rozkonárený ker alebo strom, výnimočne dosahujúci výšku až 7m. Na kmeni býva borka pozdĺžne rozpraskaná, bledohnedá až sivá, na konároch je zelená. Konáre majú vnútri belavú hubovitú dreň, tzv. bazovú dušu. Súkvetie je chocholík s priemerom 10 až 25cm. Po odkvitnutí žltobielych kvietkov dozrievajú guľovité čierne kôstkovice s 3 kôstkami a krvavočervenou dužinou. Kvitne od konca mája do začiatku júla.",
+            vyskyt:"Bazu nájdeme v celej Európe okrem najsevernejších oblastí, ďalej v západnej Ázii cez Kaukaz po Kaspické more, prenesená bola do Severjnej aj Južnej Ameriky a na Azory. Uprednostňuje vlhké humózne pôdy bohaté na dusík. Pôvodne rástla v pobrežných kroviskách a lužných lesoch na zaplavovanej pôde, keďže však semená roznášajú vtáky rusom, rýchlo sa rozšírila do najrozličnejších lokalít, ako sú skládky, rumoviská, čistiny, zanedbané parky a záhrady."
+        },
+        zber:{
+            mesiace:["apríl", "máj", "jún", "júl", "august", "september"],
+            casti:["kvety", "listy", "plody"],
+            text:"Droga je kvet, list a plod. Súkvetia sa odstrihávajú nožnicami za suchého počasia a voľne sa ukladajú do košov. Obyčajne sa sušia celé, zavesené na špagátoch, niekedy sa po zvädnutí jemne strhávajú iba kvety. Pri sušení musíme dať pozor, aby sa kvety nesparili a aby si zachovali farbu. Plody bazy dozrievajú v auguste a v septembri a môžu sa aj sušiť - najprv na slnku, potom sa dosúšajú umelým teplom. Zvráskavené bobule potom strhávame zo stopiek. Veľmi rozšírené sú rozmanité spôsoby konzervovania čerstvých plodov vo forme zaváranín, sirupov, vín a likérov. Čerstvé listy na priame použitie môžeme trhať v priebehu takmer celého vegetačného obdobia - od apríla do septembra."
+        },
+        liecba:{
+            liecitelstvo:"Kvety bazy vyvolávajú potenie, sú močopudné, znižujú horúčku a priaznivo pôsobia na steny ciev. S obľubou sa preto podávajú pri nachladnutí a pri cievnych chorobách. Plody bazy zmierňujú bolesť, osvedčili sa najmä pri migrénach a neuralgiách, blahodarne pôsobia aj pri kŕčoch orgánov tráviacej sústavy a pri plynatosti. Čaj z plodov má mierne laxatívny účinok. Bazový ocot - teda ocot, v ktorom sa vylúhovali bazové kvety - slúži na masáže bolestivého svalstva. Listy sa používajú na zábaly, napríklad pri reumatizme, dokonca pomáhajú na zvonka dostupné nádory, vnútorne vo forme záparu čistia krv a využívajú sa aj do čajov proti akné. Skoro na jar môžeme listové púčiky a drobné lístky pridávať do polievok ako zelené korenie.",
+            fandly:"Baza prijatá do života [brucha] má veľkú vyháňaciu silu, podobne aj jej koreň uvarený vo víne pomáha pri vodnatieľke a je veľmi na osoh. Pi odvar z bazy čiernej a vyženieš zimnicu tretiačku [objavujúcu sa každý 3. deň].",
+        },
+        recept:{
+            nazov:"Bazový lekvár",
+            ingrediencie:["2 diely pretlaku z bazových plodov", "1 diel cukru", "želírovací prípravok", "citrón", "škorica", "klinčeky"],
+            priprava:"Umyté zrelé plody rozvaríme vo vode na kašu, po vychladnutí prelisujeme, pridáme zodpovedajúce množstvo cukru a trochu želírovacieho prípravku. Za stáleho miešania, aby sa lekvár nepripálil, necháme odpariť na požadovanú hustotu. Lekvár uchovávame v chlade v menších flašiach, pretože po otvorení ľahko splesnivie. Na zlepšeniechuti pri varení môžeme pridať pokrájaný citrón, škoricu a klinčeky. Jeden až dva týždne užívame 3-4 lyžice denne pri rozličných neuralgiách, ischiase, zápale trojklaného alebo medzirebrového nervu, pri bolestiach hlavy, reumatizme a ako šetrné preháňadlo."
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
 
-
+    {
+        zaklad:{
+            nazov:"Borievka obyčajná",
+            latinsky:"Juniperus communis",
+            strana:"28"
+        },
+        opis:{
+            popis:"Borievka je ihličnatý vždyzelený ker či menší strom s jedným alebo niekoľkými  kmeňmi. Dosahuje výšku aj vyše 10m, ale častejšie sú nižšie exempláre do 2-3m. Ihlice sú sivozelené, vyradtajú v trojpočetných praslenoch, sú široké 1,5mm a dlhé 10-18mm. Kôra je spočiatku hladká, neskô rozpukaná, odlupuje sa vo vláknach. Samčie peľnicové kvety sú žlté a mnohotyčinkové, samičie pestikové kvety sú šiškovité a zelenkasté. Kvitne v apríli a v máji. Plod je guľovitá šišková bobuľa veľká do 1cm, spočiatku zelená a v čase dozrievania na konci druhého roka čiernomodrá, hnedá alebo červenohnedá. Borievka je dlhoveká, známe sú jedince staré vyše 2000 rokov.",
+            vyskyt:"Borievka je rozšírená na celej severnej pologuli, prenesená bola aj do Južnej Ameriky. U nás  ustupuje, vyskytuje sa roztrúsene vo slvetlých ihličnatých lesoch, na slnečných pastvinách, piesčinách, na skalnatých miestach, vresoviskách a slatinách, a to od nížin až po horské oblasti."
+        },
+        zber:{
+            mesiace:["február, ", "marec, ", "október, ", "november"],
+            casti:["plody, ", "kôra"],
+            text:"Používajú sa najmä zreleé šiškové bobule, zriedkavomladá kôra či vrcholy konárikov. Bobule zbierame na jeseň v októbri a v novembri striasaním do plachiet, pred ďalším spracovaním odstránime zošuverené a nezrelé borievky. Kvalitné plody sušíme v tieni pri miernej teplote do 35℃. Pri zbere nezabúdame na ochranné rukavice."
+        },
+        liecba:{
+            liecitelstvo:"Plody (borievky) sú výrazne močopudné a antiseptické, takže sa využívajú pri zápaloch močových ciest alebo pri zadržiavaní tekutín v tele - borievkový éterický olej podnecuje činnosť obličiek. Zelpšujú trávenie, podporujú chuť do jedla a pôsobia proti plynatosti. Priaznivo ovplyvňujú látkovú premenu. Vďaka éterickým olejom s dezinfekčnými účinkami sa môžu užívať pri kašli a nachladnutí. Zvonka pomáhajú pri reumatizme, pri bolestiach kĺbov či chrbtice, pretože zvyšujú prekrvenie pokožky a pôsobia hojivo. Vyrába sa z nich olejový výťažok na natiranie, tinktúra, využívajú sa aj na výrobu destilátov (napríklad džinu, borovičky).",
+            fandly:"Borievky čistia prsia, pľúca, pečeň a obličky, vyháňajú piesok, odstraňujú hlien, chránia pred šľakom [porážkou] a závratom. Tieto zrnká ani nemožno dosť vynchváliť, robia priam zázraky, ak sa každé ráno užijú tri alebo štyri. Ale tehotné ženy nech sa chránia nielen zŕn, ale aj dymu z nich. Komu páchne z úst, nech si ráno a večer natrie hrianku borievkovým olejom a nech ju zje. Keď sa ústa vymývajú borievkami uvarenými s ružou v octe z červeného vína, pôsobia hojivo na každú bolesť zubov",
+        },
+        recept:{
+            nazov:"Borievková tinktúra",
+            ingrediencie:["za hrsť borievok", "1/2 l 40-60% alkoholu"],
+            priprava:"Borievky 2 týždne macerujeme v alkohole, až vznikne voňavá tinktúra. Užívame dva razy denne 10 kvapiek na kocke cukru alebo ňou potierame boľavé reumatické kĺby"
+        },
+        upozornenie:{
+            x:1,
+            text:"Vnútorné používanie borievky musí byť kontrolované, pretože popri priaznivých účinkoch dráždi obličky. Nie je vhodná pre tehotné ženy."
+        }
+    },
     
     {
         zaklad:{
@@ -198,38 +255,6 @@ var register = [
         upozornenie:{
             x:0,
             text:""
-        }
-    },
-
-
-
-    {
-        zaklad:{
-            nazov:"Borievka obyčajná",
-            latinsky:"Juniperus communis",
-            strana:"28"
-        },
-        opis:{
-            popis:"Borievka je ihličnatý vždyzelený ker či menší strom s jedným alebo niekoľkými  kmeňmi. Dosahuje výšku aj vyše 10m, ale častejšie sú nižšie exempláre do 2-3m. Ihlice sú sivozelené, vyradtajú v trojpočetných praslenoch, sú široké 1,5mm a dlhé 10-18mm. Kôra je spočiatku hladká, neskô rozpukaná, odlupuje sa vo vláknach. Samčie peľnicové kvety sú žlté a mnohotyčinkové, samičie pestikové kvety sú šiškovité a zelenkasté. Kvitne v apríli a v máji. Plod je guľovitá šišková bobuľa veľká do 1cm, spočiatku zelená a v čase dozrievania na konci druhého roka čiernomodrá, hnedá alebo červenohnedá. Borievka je dlhoveká, známe sú jedince staré vyše 2000 rokov.",
-            vyskyt:"Borievka je rozšírená na celej severnej pologuli, prenesená bola aj do Južnej Ameriky. U nás  ustupuje, vyskytuje sa roztrúsene vo slvetlých ihličnatých lesoch, na slnečných pastvinách, piesčinách, na skalnatých miestach, vresoviskách a slatinách, a to od nížin až po horské oblasti."
-        },
-        zber:{
-            mesiace:["február, ", "marec, ", "október, ", "november"],
-            casti:["plody, ", "kôra"],
-            text:"Používajú sa najmä zreleé šiškové bobule, zriedkavomladá kôra či vrcholy konárikov. Bobule zbierame na jeseň v októbri a v novembri striasaním do plachiet, pred ďalším spracovaním odstránime zošuverené a nezrelé borievky. Kvalitné plody sušíme v tieni pri miernej teplote do 35℃. Pri zbere nezabúdame na ochranné rukavice."
-        },
-        liecba:{
-            liecitelstvo:"Plody (borievky) sú výrazne močopudné a antiseptické, takže sa využívajú pri zápaloch močových ciest alebo pri zadržiavaní tekutín v tele - borievkový éterický olej podnecuje činnosť obličiek. Zelpšujú trávenie, podporujú chuť do jedla a pôsobia proti plynatosti. Priaznivo ovplyvňujú látkovú premenu. Vďaka éterickým olejom s dezinfekčnými účinkami sa môžu užívať pri kašli a nachladnutí. Zvonka pomáhajú pri reumatizme, pri bolestiach kĺbov či chrbtice, pretože zvyšujú prekrvenie pokožky a pôsobia hojivo. Vyrába sa z nich olejový výťažok na natiranie, tinktúra, využívajú sa aj na výrobu destilátov (napríklad džinu, borovičky).",
-            fandly:"Borievky čistia prsia, pľúca, pečeň a obličky, vyháňajú piesok, odstraňujú hlien, chránia pred šľakom [porážkou] a závratom. Tieto zrnká ani nemožno dosť vynchváliť, robia priam zázraky, ak sa každé ráno užijú tri alebo štyri. Ale tehotné ženy nech sa chránia nielen zŕn, ale aj dymu z nich. Komu páchne z úst, nech si ráno a večer natrie hrianku borievkovým olejom a nech ju zje. Keď sa ústa vymývajú borievkami uvarenými s ružou v octe z červeného vína, pôsobia hojivo na každú bolesť zubov",
-        },
-        recept:{
-            nazov:"Borievková tinktúra",
-            ingrediencie:["za hrsť borievok", "1/2 l 40-60% alkoholu"],
-            priprava:"Borievky 2 týždne macerujeme v alkohole, až vznikne voňavá tinktúra. Užívame dva razy denne 10 kvapiek na kocke cukru alebo ňou potierame boľavé reumatické kĺby"
-        },
-        upozornenie:{
-            x:1,
-            text:"Vnútorné používanie borievky musí byť kontrolované, pretože popri priaznivých účinkoch dráždi obličky. Nie je vhodná pre tehotné ženy."
         }
     }
 ];

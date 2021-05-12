@@ -38,7 +38,9 @@ function hladaj(){                   //funkcia hladaj prejde vsetky byliny v reg
             vysledky.push(register[i].zaklad.nazov);
         }
         if(register[i].zber.mesiace.includes(vyhladavac.value) == true || register[i].zber.casti.includes(vyhladavac.value) == true || register[i].recept.ingrediencie.includes(vyhladavac.value) == true){
-            vysledky.push(register[i].zaklad.nazov);
+            if (vysledky.includes(register[i].zaklad.nazov) == false){ // aby sa nestalo, ze sa dvakrat zapise rovnaka bylina - raz z textov a raz z polí
+                vysledky.push(register[i].zaklad.nazov);
+            }
         }
     }
     console.log(vysledky);
