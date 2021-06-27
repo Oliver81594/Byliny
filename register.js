@@ -34,10 +34,10 @@ var zoznam =   [["Alchemilka obyčajná","b"], ["Archangelika lekárska", "b"], 
                 ["Cesnak cibulový", "b"], ["Cesnak medvedí", "b"], ["Cyklamén purpurový", "b"], ["Čakanka obyčajná", "b"], ["Čemerica čierna", "b"], ["Čerešňa višňová", "ks"], ["Čiernohlávok obyčajný", "b"], 
                 ["Ďatelina lúčna", "b"], ["Deväťsil lekársky", "b"], ["Divozel sápovitý", "b"], ["Dráč obyčajný", "k"], ["Drieň obyčajný", "ks"], ["Dub letný", "s"], ["Dula podlhovastá", "s"], ["Durman obyčajný", "b"], ["Dúška materina", "pk"],
                 ["Fazuľa šarlátová", ""], ["Fenikel obyčajný", "b"], ["Fialka trojfarebná", "b"], 
-                ["Hadovník väčši", "b"], ["Hloh obyčajný",""], ["Hluchavka biela", "b"], ["Horec žltý", "b"], ["Hrach siaty", ""], ["Chmeľ obyčajný", "b"], ["Chren dedinský", "b"],
+                ["Hadovník väčší", "b"], ["Hloh obyčajný",""], ["Hluchavka biela", "b"], ["Horec žltý", "b"], ["Hrach siaty", ""], ["Chmeľ obyčajný", "b"], ["Chren dedinský", "b"],
                 ["Ihlica tŕnitá", "pk"], ["Imelo biele", "k"], 
                 ["Jablčník obyčajný", "b"], ["Jahoda obyčajná", "b"], ["Jarabina vtáčia", "s"], ["Jastrabina lekárska", ""], ["Javor mliečny", "s"], ["Jedľa biela", "s"], ["Jelša lepkavá", "ks"], 
-                ["Kapsička pastierska", "b"], ["Karbinec európsky", "b"], ["Komonica lekárska", "b"], ["Konopa siata", "b"], ["Konvalinka vonavá", "b"], ["Kôpor voňavý", "b"], ["Koriander siaty", "b"], ["Kosatec nemecký", "b"], ["Kostihoj lekársky", "b"], ["Kotvičník zemný", "b"], ["Krasovlas bezbyľový", "b"], ["Krušina jelšová", "k"], ["Krvavec lekársky", "b"], ["Kukurica siata", ""], ["Kýchavica biela", "b"],
+                ["Kapsička pastierska", "b"], ["Karbinec európsky", "b"], ["Komonica lekárska", "b"], ["Konopa siata", "b"], ["Konvalinka voňavá", "b"], ["Kôpor voňavý", "b"], ["Koriander siaty", "b"], ["Kosatec nemecký", "b"], ["Kostihoj lekársky", "b"], ["Kotvičník zemný", "b"], ["Krasovlas bezbyľový", "b"], ["Krušina jelšová", "k"], ["Krvavec lekársky", "b"], ["Kukurica siata", ""], ["Kýchavica biela", "b"],
                 ["Ľan siaty", "b"], ["Lastovičník väčší", "b"], ["Lekno biele", "b"], ["Levanduľa úzkolistá", "pk"], ["Lieska obyčajná", "ks"], ["Ligurček lekársky", "b"], ["Lipa malolistá", "s"], ["Lipkavec marinkový", "b"], ["Lopúch väčší", "b"], ["Ľubovník bodkovaný", "b"], ["Ľuľkovec zlomocný", "b"], ["Ľuľok sladkohorký", "pk"], ["Lykovec jedovatý", "k"],
                 ["Machovka čerešňová", "b"], ["Mak siaty", "b"], ["Mak vlčí", "b"], ["Marena farbiarska", "b"], ["Mäta", "b"], ["Medovka lekárska", "b"],["Moruša čierna", "s"], ["Mrkva obyčajná", "b"],
                 ["Náprstník červený", "b"], ["Nátržník husí", "b"], ["Nátržník vzpriamený", "b"], ["Nechtík lekársky", "b"], ["Nevädza poľná", ""],
@@ -171,6 +171,156 @@ var register = [
 
     {
         zaklad:{
+            nazov:"Bazalka pravá",
+            latinsky:"Ocicum basilicum",
+            strana:"18"
+        },
+        opis:{
+            popis:"Bazalka pravá je jednoročná kríčkovito rastúca bylina s výškou 30 až 40cm. Stonka býva jednoduchá alebo rozkonárená. Kvety majú bielu, žltobielu až ružovkastú farbu a sú usporiadané do paklasov dlhých až 25cm. Kvitne od júna do septembra. Plod je drobná tmavá tvrdka, ktorá vo vlhku silno slizovatie. Existuje celý rad vyšľachtených kultivarov s výraznou premenlivosťou vzhľadu - ôžu mať farbu od zelenej až po fialovú a kučeravé listy. Celá rastlina má výraznú, veľmi aromatickú a korenistú vôňu aj chuť.",
+            vyskyt:"Bazalka pochádza z Indie, pestovali ju aj v starom Egypte, o čom svedčia vence z bazalky v staroegyptských pyramídach. Do európskych záhrad a kuchýň sa dostala v stredoveku a čerstvá aj sušená je dodnes veľmi obľúbeným korením, najmä v talianskej a vo francúzskej kuchyni. Vo svete na mnohých miestach splanieva, napríklad v Severnej Amerike alebo v Číne, u nás sa s obľubou pestuje, splanieva však iba veľmi zriedka."
+        },
+        zber:{
+            mesiace:["jún", "júl", "august", "september"],
+            casti:["vňať", ""],
+            text:"Príjemne voňajúca, husto olistená vňať sa zbiera v čase plného kvitnutia od júna do septembra až tri razy ročne. Rastliny orezávame 10 až 15cm nad zemou, aby mohliznovu vyhnať. Sušia sa v tieni na vetranom mieste v tenkých vrstvách pri teplote do 35℃."
+        },
+        liecba:{
+            liecitelstvo:"Bazalka uľahčuje trávenie, potláča plynnatosť a priaznivo ovplyvňuje činnosť tráviacej sústavy, okrem toho dezinfikuje močové cesty. Využíva sa pri zápaloch horných dýchacíc ciest, pretože podporuje odkašlavanie, má aj potopudne a upokojujúce účinky. Kloktadlo z bazalkového záparu dezinfikuje ústnu dutinu a hrdlo, priložené čerstvé listy hoja zapareniny. Výrazne aromatické éterické oleje sa využívajú vo voňarkástve, vôňou pripomínajú zmes ruží a klinčekov. Ako korenie by bazalka nemala chýbať v nijakej kuchyni. Bazalka bola liečivom na rozmanité choroby už v staroveku (Egypt, India). Jej názov pochádza  z gréckeho slova basileus, čiže kráľ. Neskôr sa omylom odvodzoval z latinského slova  basilicus, teda bazilišok, a bola zatracovaná ako diabolská bylina.",
+            fandly:"Odvar z jej semena posilňuje srdce a rozháňa mdloby. Jej byľ priviazaná na čelozmierňuje bolenie hlavy, namočená do octu roztrháva mdlobu. Ak bradavice zvrchu poškrabeš nožom a posypeš popolom zo semena bazalky, vyhoja sa. Namoč na noc semeno bazalkydo ružovej vody, voda zhustne a stane sa lepkavou. Hojí nákazy v hrdle, popukané pery a jazyk.",
+        },
+        recept:{
+            nazov:"Bazalkový olej",
+            ingrediencie:["2 hrste čerstvých listov alebo celej rastliny", "400ml olivového oleja"],
+            priprava:"V pare alebo v horúcej vode paríme buď iba listy 10 sekúnd, alebo celé rastliny aj so stonkami 30 sekúnd. Prudko ich schladíme v ľadovej vode a rozmixujeme s olivovovým olejom. Necháme 24 hodín v chlade macerovať a potom precedíme cez plátno alebo husté nekovové sitko. Olej sa používa najmä v studenej kuchyni, ale je vhodný aj na vonkajšie použitie. Natieraním sa ním dajú zmierňovať následky hmyzieho uštipnutia, zábal pomáha pri zápale priedušiek, najmä u detí."
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    {
+        zaklad:{
+            nazov:"Bedrovník anízový",
+            latinsky:"Pimpinella anisum",
+            strana:"20"
+        },
+        opis:{
+            popis:"Bedrovník anízový (aníz) je jednoročná bylina dorastajúca do výśky 30 až 50cm. Má vzpriamenú, hore rozkonárenú stonku a tri tvary listov. Biele kvety sú usporiadnané do okolíkov so 7 až s 15 lúčmi. Kvitne od júna do augusta. Plod (takisto označovaný aníz) je dvojnažka, jej veľkosť a farba sa menia podľa kultivaru aj oblasti pôvodu. Pre farmáciu je cenný najmä svetlý, veľkoplodý aníz z juhu Talianska a španielsky z Andalúzie.",
+            vyskyt:"Bedrovník anízový má dlhú históriu, najstarśie správy o ňom pochádzajú z obdobia približne 1500 rokov pred Kr. z egyptských záznamov, ale už predtým bol rozšírený v Sýrii, Grécku a na Cypre. Na sever od Á"
+        },
+        zber:{
+            mesiace:["august", "september"],
+            casti:["plody", ""],
+            text:"Plody bedrovníka sa zbierajú v auguste a v septembri, keď okolíky začínajú od stredu žltnúť a dvojnažky sa sfarbujú do sivozelena. Zbierame zrána, kým sú rastliny vlhké, inak by plody ľahko opadali. Odrezané čati bedrovníka zviažeme do malých zväzkov a zavesíme dole hlavou. Plody takto dozrevajú asi 2 tyždne a popritom sa suśia. Vypadávajúce semená zachytávame na podložke, nevypdané semená vyšúchame a všetko preosejeme."
+        },
+        liecba:{
+            liecitelstvo:"V stredoveku sa pre bedrovník tradoval prívlastok všeliek a býval neoddeliteľnou súčasťou liečiv. Plody sú vďaka",
+            fandly:"Aníz dáva dychu vôňu, tvári mladiství vzhľad a zaháňa ťažké sny",
+        },
+        recept:{
+            nazov:"Odvar proti čkaniu a kolikám", 
+            ingrediencie:["1 polievková lyžica podrveného anízu", "250ml vody a lebo mlieka"],
+            priprava:"Podrvený aníz nasypeme do vriacej vody alebo vriaceho mlieka a varíme 6 až 10 minút. Užívame pri úpornom čkaní, kŕčoch na hrudi, keď si nemôžeme odkašlať a pri brušnej kolike u detí. Podáva sa dva až tri razy denne do ústupu ťažkostí."
+        },
+        upozornenie:{
+            x:1,
+            text:"Nadmerná konzumácia anízových likérov môže vzhľadom na obsah látok s estrogénovými účinkami u žien spôsobovať hormonálne poruchy."
+        }
+    },
+
+    {
+        zaklad:{
+            nazov:"Bedrovník väčší",
+            latinsky:"Pimpinella major",
+            strana:"Bedrovník väčší je trváca bylina s hrubým vretenovitým koreňom, dorastajúci do výšky 40 až 120cm. Stonka je dutá, hranatá a ryhovaná. Súkvetie je okolík zložený z 9 aź 15 okolíčkov, ktoré majú po 14 až 26 bielych kvetov. Plod je vajcovitá rebrovitá dvojnažka. Kvitne od júna do septembra. Bedrovník väčší sa veĺmi podobá na drobnejší bedrovník lomikameňový(Pimpinella saxifraga). Oba druhy obsahujú tie isté účinné látky a majú rovnaké využitie."
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    {
+        zaklad:{
+            nazov:"Blen čierny",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Bolehlav škvrnitý",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
             nazov:"Borievka obyčajná",
             latinsky:"Juniperus communis",
             strana:"28"
@@ -228,6 +378,38 @@ var register = [
             text:"Borovica nie je vhodná pre osoby so zápalom obličiek, pečene alebo tráviacej sústavy. Vo vyšších dávkach na citlivé osoby pôsobí dráždivo."
         }
     },
+
+    {
+        zaklad:{
+            nazov:"Brečtan popínavý",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+
     {
         zaklad:{
             nazov:"Breza previsnutá",
@@ -241,6 +423,4478 @@ var register = [
         zber:{
             mesiace:["marec", "apríl", "máj", "jún"],
             casti:["miazga", "listy", "púčiky"],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    {
+        zaklad:{
+            nazov:"Brusnica čučoriedková",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Brusnica obyčajná",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    {
+        zaklad:{
+            nazov:"Buk lesný",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Cesnak cibulový",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Cesnak medvedí",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Cyklamén purpurový",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Čakanka obyčajná",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    {
+        zaklad:{
+            nazov:"Čemerica čierna",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Čerešňa višňová",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    {
+        zaklad:{
+            nazov:"Čiernohlávok obyčajný",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Ďatelina lúčna",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Deväťsil lekársky",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Divozel sápovitý",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Dráč obyčajný",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Drieň obyčajný",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Dub letný",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Dula podlhovastá",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Durman obyčajný",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    {
+        zaklad:{
+            nazov:"Dúška materina",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Fazuľa šarlátová",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Fenikel obyčajný",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Fialka trojfarebná",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Hadovník väčší",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Hloh obyčajný",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Hluchavka biela",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Horec žltý",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Hrach siaty",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Chmeľ obyčajný",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    {
+        zaklad:{
+            nazov:"Chren dedinský",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Ihlica tŕnitá",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    {
+        zaklad:{
+            nazov:"Imelo biele",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Jablčník obyčajný",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Jahoda obyčajná",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Jarabina vtáčia",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    {
+        zaklad:{
+            nazov:"Jastrabina lekárska",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Javor mliečny",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Jedľa biela",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Jelša lepkavá",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Kapsička pastierska",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Karbinec európsky",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Komonica lekárska",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Konopa siata",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Konvalinka voňavá",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Kôpor voňavý",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Koriander siaty",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Kosatec nemecký",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    
+    {
+        zaklad:{
+            nazov:"Kostihoj lekársky",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    
+    {
+        zaklad:{
+            nazov:"Kotvičník zemný",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    
+    {
+        zaklad:{
+            nazov:"Krasovlas bezbyľový",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    
+    {
+        zaklad:{
+            nazov:"Krušina jelšová",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    
+    {
+        zaklad:{
+            nazov:"Krvavec lekársky",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    
+    {
+        zaklad:{
+            nazov:"Kukurica siata",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    
+    {
+        zaklad:{
+            nazov:"Kýchavica biela",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    
+    {
+        zaklad:{
+            nazov:"Ľan siaty",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    
+    {
+        zaklad:{
+            nazov:"Lastovičník väčší",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    
+    {
+        zaklad:{
+            nazov:"Lekno biele",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    
+    {
+        zaklad:{
+            nazov:"Levanduľa úzkolistá",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    
+    {
+        zaklad:{
+            nazov:"Lieska obyčajná",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    
+    {
+        zaklad:{
+            nazov:"Ligurček lekársky",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    
+    {
+        zaklad:{
+            nazov:"Lipa malolistá",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    
+    {
+        zaklad:{
+            nazov:"Lipkavec marinkový",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    
+    {
+        zaklad:{
+            nazov:"Lopúch väčší",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    
+    {
+        zaklad:{
+            nazov:"Ľubovník bodkovaný",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    
+    {
+        zaklad:{
+            nazov:"Ľuľkovec zlomocný",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    
+    {
+        zaklad:{
+            nazov:"Ľuľok sladkohorký",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    
+    {
+        zaklad:{
+            nazov:"Lykovec jedovatý",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    
+    {
+        zaklad:{
+            nazov:"Machovka čerešňová",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    
+    {
+        zaklad:{
+            nazov:"Mak siaty",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    
+    {
+        zaklad:{
+            nazov:"Mak vlčí",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    
+    {
+        zaklad:{
+            nazov:"Marena farbiarska",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    
+    {
+        zaklad:{
+            nazov:"Mäta",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    
+    {
+        zaklad:{
+            nazov:"Medovka lekárska",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    
+    {
+        zaklad:{
+            nazov:"Moruša čierna",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    
+    {
+        zaklad:{
+            nazov:"Mrkva obyčajná",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    
+    {
+        zaklad:{
+            nazov:"Náprstník červený",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    
+    {
+        zaklad:{
+            nazov:"Nátržník husí",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    
+    {
+        zaklad:{
+            nazov:"Nátržník vzpriamený",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+
+    
+    {
+        zaklad:{
+            nazov:"Nechtík lekársky",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Nevädza poľná",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Oman pravý",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Orech kráľovský",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Ostružina černicová",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Ostružina malinová",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Ovos siaty",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Pagaštan konský",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Palina abrotská",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Palina pravá",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Pamajorán obyčajný",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Paštrnák siaty",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Pečeňovník trojlaločný",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Pestrec mariánsky",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Petržlen záhradný",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Plavúň obyčajný",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Pľúcnik lekársky",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Podbeľ liečivý",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Pohánka jedlá",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Posed biely",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Potočnica lekárska",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Praslička roľná",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Pŕhľava dvojdomá",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Prvosienka jarná",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Púpava",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Pupenec roľný",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Puškvorec obyčajný",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Pyštek obyčajný",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Rasca lúčna",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Rebríček obyčajný",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Rozmarín lekársky",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Rozpuk lekársky",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Rozpuk jedovatý",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Rumanček kamilkový",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Ruta voňavá",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Ruža",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Ruža šípová",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Sedmokráska obyčajná",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Senovka grécka",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Skorocel kopijovitý",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Skorocel väčší",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Sladič obyčajný",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Sladovka hladkoplodá",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Slez lesný",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Slivka trnková",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Smrek obyčajný",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Srdcovník obyčajný",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Stavikrv vtáčí",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Šafran siaty",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Šalvia lekárska",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Štetka lesná",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Topoľ čierny",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Topoľ osikový",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Túžobník brestový",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Uhorka siata",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Vachta trojlistá",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Valeriána lekárska",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Vavrín vznešený",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Veronika lekárska",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Vinič hroznorodý",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Vratič obyčajný",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Vŕba biela",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Vres obyčajný",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Yzop lekársky",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Zádušník brečtanovitý",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Zeler voňavý",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Zemedym lekársky",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Zemežlč menšia",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Zimozeleň menšia",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Zlatobyľ obyčajná",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
+            text:""
+        },
+        liecba:{
+            liecitelstvo:"",
+            fandly:"",
+        },
+        recept:{
+            nazov:"",
+            ingrediencie:["", ""],
+            priprava:""
+        },
+        upozornenie:{
+            x:0,
+            text:""
+        }
+    },
+    
+    {
+        zaklad:{
+            nazov:"Žindava európska",
+            latinsky:"",
+            strana:""
+        },
+        opis:{
+            popis:"",
+            vyskyt:""
+        },
+        zber:{
+            mesiace:["", ""],
+            casti:["", ""],
             text:""
         },
         liecba:{
