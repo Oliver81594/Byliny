@@ -4855,26 +4855,26 @@ var register = [
     {
         zaklad:{
             nazov:"Zlatobyľ obyčajná",
-            latinsky:"",
-            strana:""
+            latinsky:"Solidago virgaurea",
+            strana:"328"
         },
         opis:{
-            popis:"",
-            vyskyt:""
+            popis:"Zlatobyľ je trváca , 0,5 až 1m vysoká bylina so vzpriamenou nerozkonárenou ryhovanou stonkou, ktorá je pri zemi fialovkastá. Vyrastajú na ne striedavé listy, ktoré sa smerom nahor zužujú a zmenšujú. Súkvetie je bohatá metlina so žltými kvetnými úbormi. Kvitne od júla do septembra. Plod je chlpatá nažka s jednoduchým chocholcom.",
+            vyskyt:"Zlatobyľ rastie v Európe, severozápadnej Afrike, Malej Ázii, na západnej Sibíri a v zakaukazskej oblasti. U nás rastie roztrúsená vo výške 300 až 800 m. n. m. Obľubuje polotieň a stredné vlhké stanovištia, preto sa jej darí na krovinatých stráňach, skalách, vo svetlých suchších lesoch, na čistinách a na okraji lesa."
         },
         zber:{
-            mesiace:["", ""],
-            casti:["", ""],
-            text:""
+            mesiace:["máj, ", "jún, ", "júl, ", "august, ", "september"],
+            casti:["vňať", "kvitnúca vňať"],
+            text:"Zbierame vňať - najčastejšie v júli až septembri zrezávame vrchnú časť kvitnúcej vňate dlhú asi 30cm, zriedkavejšie zbierame vňať v máji a v júni ešte pred rozkvitnutím. Na zber je najvhodnejší čas za slnečného počasia, vtedy má rastlina najvyšší obsah glykozidov. Sušíme ju zavesenú v tieni vo zväzkoch na šnúre pri teplote do 40°C alebo rozloženú v tenkej vrstve. Musí sa sušit rýchlo(najlepšie v prievane), aby si zachovala farbu. Pred uskladnením drogu zbavíme hrubých stoniek a odkvitnutých úborov."
         },
         liecba:{
-            liecitelstvo:"",
-            fandly:"",
+            liecitelstvo:"Zlatobyľ sa aplikuje predovšetkým ako močopudný a protizápalový prostriedok, priaznivo ovplyvňuje látkovú premenu a má sťahujúci účinok. Odporúča sa staršim mužom pri ťažkostiach s močením spôsobených zväčšenou prostatou, jej močopudné vlastnosti sa využívajú pri zadržiavaní vody v organizme a reumatizme. Možno ju využiť pri chorobách horných dýchacích ciest, kašli a astme. Kúpele s pridaním zlatobyle zlepšujú činnosť ochabnutých svalov a stav kože, zmierňujú viditeľnosť strií. Po kúpeľoch, ktoré opakujeme každý tretí deň v priebehu jedného mesiaca, koža obyčajne zružovie a stiahne sa. Kúpele sa odporúčajú aj na zlepšenie pohyblivosti po úrazoch alebo po obrne, pomáhajú aj pri liečbe podliatin, zle sa hojacich a hnisavých rán, hemoroidov a kožných ekzémov.",
+            fandly:"Usuš zlatobyľ obyčajnú, rozdrv na prach a syp do nových alebo aj starých rán a do iných otvorených miest na tele, vyčistí ich a pripravý ich vyhojenie. Ak prach zmiešaš s octom a ocot necháš odpariť, zvýši sa jeho účinok na staré rany a zanedbané vredy.",
         },
         recept:{
-            nazov:"",
-            ingrediencie:["", ""],
-            priprava:""
+            nazov:"Kozmetický zápar",
+            ingrediencie:["50g sušenej vňate zlatobyle", "150ml vody"],
+            priprava:"Vňať sparíme vriacou vodou, pod pokrievkou lúhujeme do vychladnutia a potom precedíme. Zápar jr vhodný na umývanie mastnej pletis rozšírenými pórmi. Odporúča sa kombinovať ho so silným čajovým výťaZkom v pomere 1:1."
         },
         upozornenie:{
             x:0,
