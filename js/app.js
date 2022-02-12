@@ -59,7 +59,7 @@ function vypis(druhy){
                             pocetKs ++;
                         }
                         else{
-                            if (zoznam[i][1] == "" && druhy[5] == 1){
+                            if (zoznam[i][1] == "o" && druhy[5] == 1){
                                 pridajEl("");
                                 pocetO ++;
                             }
