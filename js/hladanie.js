@@ -48,7 +48,8 @@ function hladaj(){                   //funkcia hladaj prejde vsetky byliny v reg
 
 function spracuj(event){             //funkcia spracuj caka kedy uzivatel stlaci enter, nasledne spusti funckiu hladaj
     if(event.key == "Enter"){
-        kluc = new RegExp(vyhladavac.value, "i");       //RegExp je funkcia, ktora zmeni string na regular expression. Icko znamena, ze nezalezi ci je prve pismeno velke alebo male
+        string = vyhladavac.value.replace(/[\n\r]/g, ''); //odstrani nove riadky
+        kluc = new RegExp(string, "i");       //RegExp je funkcia, ktora zmeni string na regular expression. Icko znamena, ze nezalezi ci je prve pismeno velke alebo male
         console.log(kluc);
         hladaj();
         vysledky = [];
