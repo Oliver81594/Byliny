@@ -20,7 +20,7 @@
     }
     
     $cookie_name = "bylina";
-
+    
     if(!isset($_COOKIE[$cookie_name])){
         echo "
         <center><div class=\"alert alert-warning\" role=\"alert\">
@@ -30,7 +30,6 @@
     else{
         $search_query = $_COOKIE[$cookie_name];
         $search_query = urlencode( $search_query );
-        setcookie("bylina", "", time() - 3600);
 
         $yahoo_url = "https://images.search.yahoo.com/search/images;_ylt=AwrJ7FU19gdiDHEA2llXNyoA;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZANMT0NVSTAxOV8xBHNlYwNwaXZz?p=$search_query&fr2=piv-web&fr=yfp-t-s";
         $url = $yahoo_url;

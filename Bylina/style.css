@@ -13,3 +13,10 @@
 .alert{
     max-width: 90%;
 }
+
+.switch{
+    text-align: left;
+    position: relative;
+    left: 2.5%;
+    width: 97.5%;
+}
