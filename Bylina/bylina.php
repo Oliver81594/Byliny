@@ -109,7 +109,11 @@
                 </div>
               </div>
             </div>
-          </div></center>
+          </div>
+          <div id="galeria" class="">
+
+          </div>
+        </center>
         </div>
         
         <br>
@@ -119,5 +123,8 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="../register.js"></script>
         <script src="bylina.js"></script>
+        <?php
+          include "obrazky.php";
+        ?>
     </body>
 </html>

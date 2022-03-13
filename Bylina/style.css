@@ -9,3 +9,7 @@
 .pozor{
     background-color: lightcoral;
 }
+
+.alert{
+    max-width: 90%;
+}
