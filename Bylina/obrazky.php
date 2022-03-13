@@ -33,9 +33,6 @@
 
         $yahoo_url = "https://images.search.yahoo.com/search/images;_ylt=AwrJ7FU19gdiDHEA2llXNyoA;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZANMT0NVSTAxOV8xBHNlYwNwaXZz?p=$search_query&fr2=piv-web&fr=yfp-t-s";
         $url = $yahoo_url;
-        $html = file_get_contents( $url );
-    
-        preg_match_all( '|<img.*?src=[\'"](.*?)[\'"].*?>|i', $html, $matches );
         printImages();
     }
 ?>
