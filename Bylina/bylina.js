@@ -1,7 +1,8 @@
-prisielSomZ = localStorage.getItem("PrisielSomZ");
-for (i = 0; i < register.length; i++){
+var prisielSomZ = localStorage.getItem("PrisielSomZ");
+var bylina;
+for (var i = 0; i < register.length; i++){
     if(prisielSomZ == register[i].zaklad.nazov){
-        var bylina = register[i];
+        bylina = register[i];
     }
 }
 
@@ -31,8 +32,8 @@ receptNazov.textContent = bylina.recept.nazov;
 recept.textContent = bylina.recept.priprava;
 upozornenieText.textContent = bylina.upozornenie.text;
 
-for(i = 0; i < bylina.zber.mesiace.length; i++){
-    mesiac = document.createElement("i");
+for(var i = 0; i < bylina.zber.mesiace.length; i++){
+    var mesiac = document.createElement("i");
     if (i > 0){
         mesiac.textContent = ", " + bylina.zber.mesiace[i];
     }
@@ -42,8 +43,8 @@ for(i = 0; i < bylina.zber.mesiace.length; i++){
     mesiace.append(mesiac);
 }
 
-for(i = 0; i < bylina.zber.casti.length; i++){
-    cast = document.createElement("i");
+for(var i = 0; i < bylina.zber.casti.length; i++){
+    var cast = document.createElement("i");
     if (i > 0){
         cast.textContent = ", " + bylina.zber.casti[i];
     }
@@ -53,12 +54,12 @@ for(i = 0; i < bylina.zber.casti.length; i++){
     casti.append(cast);
 }
 
-for(i = 0; i < bylina.recept.ingrediencie.length; i++){
-    ingrediencia = document.createElement("i");
+for(var i = 0; i < bylina.recept.ingrediencie.length; i++){
+    var ingrediencia = document.createElement("i");
     ingrediencia.textContent = bylina.recept.ingrediencie[i];
     ingrediencie.append(ingrediencia);
 }
 
-if (bylina.upozornenie.x == 1){
+if(bylina.upozornenie.x == 1){
     upozornenieDiv.style.opacity = 1;
 }

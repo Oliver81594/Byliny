@@ -11,20 +11,18 @@ var pocetB = 0,
     pocetO = 0;
 
 function priradID(){
-    id = this.id;
+    var id = this.id;
     localStorage.setItem("PrisielSomZ", id);
-    //nastavenie cookie na zobrazovanie obrazkov
-    document.cookie = "bylina=" + id;
 }
 
 function zmaz() {
-    while (index.firstChild) {
+    while(index.firstChild) {
         index.removeChild(index.firstChild);
     }
 }
 
 function pridajEl(klas){   //funkcia prida element s nazvom rastliny - klas(class) - pridava dany klas danemu typu rastliny
-        meno = document.createElement("a");
+        var meno = document.createElement("a");
         meno.className = "list-group-item list-group-item-action";
         meno.className = "list-group-item list-group-item-action " + klas;
         meno.href = "Bylina/bylina.php";
@@ -108,8 +106,6 @@ function zmena(){
     
     vypis(check);
 }
-
-//nastavit cookie
 
 
 
