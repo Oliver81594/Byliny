@@ -10,11 +10,15 @@ var pocetB = 0,
     pocetKs = 0, 
     pocetO = 0;
 
+function urlencode (str) {
+    return encodeURI(str).replace(/%20/g, "+");
+}
+    
 function priradID(){
     id = this.id;
     localStorage.setItem("PrisielSomZ", id);
     //nastavenie cookie na zobrazovanie obrazkov
-    document.cookie = "bylina=" + id;
+    document.cookie = "bylina=" + urlencode(id);
 }
 
 function zmaz() {
