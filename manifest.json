@@ -1,7 +1,7 @@
 {
     "name":"Byliny PWA",
     "short_name":"Byliny",
-    "start_url":"/",
+    "start_url":"/Byliny/",
     "icons":[
         {
           "src": "img/icons/manifest-icon-192.maskable.png",
