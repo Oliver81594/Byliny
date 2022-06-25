@@ -6,13 +6,7 @@ self.addEventListener('install', function(event) {
         'index.html',
         'register.js',
         'manifest.json',
-        'style.css',
-        'bylina/bylina.html',
-        'bylina/bylina.js',
-        'bylina/style.css',
-        'js/app.js',
-        'hladanie.js'
-        // etc.
+        'style.css'
       ])
     })
   );
