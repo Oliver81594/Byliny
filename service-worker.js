@@ -5,21 +5,18 @@ const files_list = [
 '/manifest.json', 
 '/style.css', 
 '/js/app.js', 
-'/js/hladanie.js', 
-//'/Bylina/bylina.html', 
-//'/Bylina/bylina.js', 
-//'/Bylina/style.css'];
+'/js/hladanie.js'];
 
 async function preCache(){
   const cache = await caches.open(cache_name);
   return cache.addAll(files_list);
 }
 
-self.addEventListener('install', event =>{
+self.addEventListener('install', event => {
   event.waitUntil(preCache());
 })
 
-self.addEventListener('activate', event =>{
+self.addEventListener('activate', event => {
   console.log("n");
 })
 
@@ -34,6 +31,6 @@ async function fetchAssets(event){
   }
 }
 
-self.addEventListener('fetch', event =>{
+self.addEventListener('fetch', event => {
   event.respondWith(fetchAssets(event));
 })
