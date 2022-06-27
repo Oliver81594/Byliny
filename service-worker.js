@@ -4,7 +4,7 @@ const files_list = [
   '/Byliny/register.js',
   '/Byliny/manifest.json', 
   '/Byliny/css/style.css',
-  'Byliny/css/bootstrap.min.css',
+  '/Byliny/css/bootstrap.min.css',
   '/Byliny/js/app.js',
   '/Byliny/js/hladanie.js', 
   '/Byliny/Bylina/bylina.html', 
