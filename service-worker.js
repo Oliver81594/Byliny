@@ -3,8 +3,9 @@ const files_list = [
 '/Byliny/', 
 '/Byliny/register.js',
 '/Byliny/manifest.json', 
-'/Byliny/style.css', 
-'/Byliny/js/app.js', 
+'/Byliny/css/style.css',
+'Byliny/css/bootstrap.min.css',
+'/Byliny/js/app.js',
 '/Byliny/js/hladanie.js', 
 '/Byliny/Bylina/bylina.html', 
 '/Byliny/Bylina/bylina.js', 
@@ -20,8 +21,22 @@ self.addEventListener('install', event => {
   event.waitUntil(preCache());
 })
 
+async function cleanCahce(){
+  const keys = await caches.keys()
+  const del_keys = keys.map( key => {
+    if(key === cache_name){
+      return caches.delete(key);
+    }
+  })
+  return Promise.all(del_keys);
+}
+
 self.addEventListener('activate', event => {
-  console.log("n");
+  if(navigator.onLine){
+    self.skipWaiting();
+    event.waitUntil(cleanCahce());
+    event.waitUntil(preCache());
+  }
 })
 
 
