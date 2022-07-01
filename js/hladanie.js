@@ -51,7 +51,6 @@ function spracuj(event){             //funkcia spracuj caka kedy uzivatel stlaci
         event.preventDefault();     //zabrani sa napisaniu noveho riadku
         string = vyhladavac.value; //odstrani nove riadky
         kluc = new RegExp(string, "i");       //RegExp je funkcia, ktora zmeni string na regular expression. Icko znamena, ze nezalezi ci je prve pismeno velke alebo male
-        console.log(kluc);
         hladaj();
         vysledky = [];
         vyhladavac.value = "";  //textarea sa premaze ?chceme to?
