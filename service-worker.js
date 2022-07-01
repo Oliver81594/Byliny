@@ -1,16 +1,16 @@
 const cache_name = 'byliny_cache';
 const files_list = [
-  '/Byliny/', 
-  '/Byliny/register.js',
-  '/Byliny/manifest.json', 
-  '/Byliny/css/style.css',
-  '/Byliny/css/bootstrap.min.css',
-  '/Byliny/js/app.js',
-  '/Byliny/js/hladanie.js', 
-  '/Byliny/Bylina/bylina.html', 
-  '/Byliny/Bylina/bylina.js', 
-  '/Byliny/Bylina/style.css', 
-  '/Byliny/img/favicon.ico'];
+  './', 
+  './register.js',
+  './manifest.json', 
+  './css/style.css',
+  './css/bootstrap.min.css',
+  './js/app.js',
+  './js/hladanie.js', 
+  './Bylina/bylina.html', 
+  './Bylina/bylina.js', 
+  './Bylina/style.css', 
+  './img/favicon.ico'];
 
 async function preCache(){
   const cache = await caches.open(cache_name);
