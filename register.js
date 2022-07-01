@@ -765,7 +765,7 @@ var register = [
             priprava:"Sušené kvety zalejeme vriacou vodou a necháme 5 minút spariť. Precedíme a popíjame teplý. Zápar je vhodný na pravidelné dlhodobé užívanie na zmiernenie ťažkostí spojených s klimaktériom."
         },
         upozornenie:{
-            x:0,
+            x:1,
             text:"Pití odvaru květu i semene v medové vodě nebo ve víně, anebo klystýr z něho do života, obměkčuje tuhý a tvrdý šlem ve střevech a léčí zranění a koliky ve střevech. Jetel [ďatelina] je užitečná píce pro telata a mladá jehňata. Včeličky vyhledávají v květu jetelovém med stejně jako v mateřídoušce. Někteří praví, že pojídání nebo pití jetele s červeným květem zastavuje ženský výtok, kdežto druhý s bílým květem prý jej vyvolává."
         }
     },
@@ -833,86 +833,86 @@ var register = [
     {
         zaklad:{
             nazov:"Dráč obyčajný",
-            latinsky:"",
+            latinsky:"Berberis vulgaris",
             strana:""
         },
         opis:{
-            popis:"",
-            vyskyt:""
+            popis:"Dráč je do 3 m bysoký tŕnitý ker s hladkou kôrou. Má opadavé striedavé vajcorité listy, vyrastajúce na brachyblastoch tesne na tŕňmi. Kvety sú žlté a usporiadané do prevísajúcich jednoduchých strapcov. Kvitne od apríla do júna. Plod je podlhovastá bobuľa bledočervenej farby.",
+            vyskyt:"Rastie v strednej a južnej Európe, cez Ukrajinu, južné Rusko a Kaukaz zasahuje až do Malej Ázie. Je svetlomilný, uprednostňuje vápence a dolomity. Nájdeme ho na slnečných svahoch, vo svetlých lesoch a kroviskách. Často sa pestuje v parkoch ako okrasný ker. U nás patrí medzi zriedkavejšie, pretože v minulosti bol takmer vyhubený ako jeden z hostiteľov hrdze trávovej, poškodzujúcej pšenicu. Neskôr sa zistilo, že hrdza trávová dráč na úplny vývoj vôbec nepotrebuje."
         },
         zber:{
             mesiace:["", ""],
             casti:["", ""],
-            text:""
+            text:"Ako liečivo slúži kôra, listy a plody. Na jar získavame kôru z koreňov, niekedy aj z konárov. Mladé listy zbierame v apríli až máji ešte pred rozkvitnutím. Plody sa zbierajú na prelome septembra a októbra v čase zrelosti a sušia sa v tenkých vrstvách na sitách na slnku. Pri dosúšaní by umelé teplo nemalo presiahnuť teplotu 50°C. Kôra je bez pachu, veľmi horká, plodu sú kyslasté."
         },
         liecba:{
-            liecitelstvo:"",
-            fandly:"",
+            liecitelstvo:"Tinktúra z listov dráča alebo odvar z listov či z kôry sa užíva pri žlčníkových zápaloch a poruchách pečene, pretože zvyšuje vylučovanie žlče. Dráč je aj močopudný a tlmí krvácanie maternice. Prospieva cievam, znižuje krvný tlak, zvyšuje imunitu, má silné protizápalové účinky a ničí celý rad mikroorganizmov, napríklad stafylokoky, streptokoky a bičíkovce. Lieči hnačkové ochorenie, ako je salmonela, dyzentéria či cholera, je účinný pri infekcii močových siest alebo vaginálnej mykóze. Obklady z odvaru z dráčovej kôry pomáhajú pri zápaloch očí a zabraňujú rozvoju lupienky. Odvarom z listov možno kloktať pri zápaloch ústnej dutiny.",
+            fandly:"Šťava alebo víno z dráča spevňuje kývajúce sa zuby a posilňuje ich mäso [ďasná], gargarizovaním a kloktaním odstraňuje opuchy hrdla a zastavuje tečúce vlhkosti. Hojí čerstvé rany a zaceľuje staré vredy. Sú účinné aj proti vredom a horúčke. Víno z dráča s koreňom fialky a vodou z nátržníka sa dáva piť proti vnútorným pálčivým a morovým zimniciam. Ono nielenže uháša smäd, ale udúša aj horúce morové pary vystupujúce k srdcu, s veľkým úžitkom sa podáva proti úplavici a vtedy, keď človek nevládze udržať pokrmy v žalúdku. Naozaj posilňuje žalúdok, pečeň a srdce, najmä keď sa dostáva do srdca penohorkosť, z čoho pochádza ťažoba, vracanie,mdloby a trasenie srdca.",
         },
         recept:{
-            nazov:"",
-            ingrediencie:["", ""],
-            priprava:""
+            nazov:"Odvar z dráčovej kôry",
+            ingrediencie:["1 lyžička (2g) nakrájanej dráčovej kôry", "1/2 l vody"],
+            priprava:"Kôru vložíme do studenej vody a uvedieme ju do varu. Varíme 15 až 30 minút, potom scedíme. Popíjame každý druhý deň v priebehu celého dňa. Užíva sa najmä ako diuretikum pri chorobách obličiek, obličkových kameňoch, zápaloch močových ciest, ale aj na iné zdravotné ťažkosti. Súvislá liečba by nemala trvať dlhšie ako mesiac."
         },
         upozornenie:{
-            x:0,
-            text:""
+            x:1,
+            text:"Iba celkom zrelé plody neobsahujú alkaloidy, ktoré môžu byť vo väčšom množstve ebezpečné - dráždia nervový systém a spôsobujú ochrnutie dýchacích centier. Môžu omámiť, vyvolať vracanie alebo hnačku. Predávkovanie dráčovou drogou môže poškodiť obličky. Nie je vhodný pre deti, dojčiace a tehotné ženy."
         }
     },
     
     {
         zaklad:{
             nazov:"Drieň obyčajný",
-            latinsky:"",
+            latinsky:"Cornus mas",
             strana:""
         },
         opis:{
-            popis:"",
-            vyskyt:""
+            popis:"Drieň je ker alebo malý strom s výškou 2 až 6 m. Má rovné, vystúpavé konáre a tenkú rozbrázdenú tmavosivú až hnedú borku, ktorá sa odlupuje v tenkých plochých šupinách. Listy sú elipsovité až vajcovité, na lícnej strane sviežozelené a lesklé, na rube svetlejšie. Kvety sú bledožlté, rozkvitajú skoro na jar v marci a v apríli ešte pred olistením. Sú drobné a po 18 až 30 usporiadané v guľatých okolíkoch. Plod je červená kôstkovica dlhá 1 až 3 cm (drienka).",
+            vyskyt:"Pravdepodobne pochádza z Balkánu a Malej Ázie. Vyskytuje sa v južnej Európe, jeho severnejšie stanovištia zasahujú do strednej Európy (Nemecko, Čechy, Morava, Slovensko) a pokračujú na východ na Krym a Kaukaz. Uprednostňuje krasové vápencové lokality, krovinaté stráne, okraje svetlých lesov a skalnaté svahy. U nás ho najčastejšie nájdeme v pásme pahorkatín, vysádza sa do záhrad a parkov. Patrí medzi vzácnejšie a ohrozené druhy našej flóry."
         },
         zber:{
             mesiace:["", ""],
             casti:["", ""],
-            text:""
+            text:"Zbierame celkom zrelé plody, čiže najskôr koncom augusta a v septembri, ke%d majú sýtočervenú farby a samy opadávajú z konárov. Na zber je najlepšie rozprestrieť pod ker plachtu a drienky nechať opadať alebo ich môžeme striasť. Z plodov odtrhneme stopky, odkôstkujeme ich a usušíme v tenkej vrstve, umelo dosúšame pri teplote do 50°C. Pri skladovaní ich chránime pred zvlhnutím a plesňami. Kôru získavame na jar z mladých konárov, čerstvé listy môžeme trhať od mája do septembra."
         },
         liecba:{
-            liecitelstvo:"",
-            fandly:"",
+            liecitelstvo:"Plody drieňa sú bohaté na kyselinu vínnu a jablčnú, pektíny, tiesloviny, draslík, vápnik, horčík, provitamín A a vitamín C. Sušené plody sa používajú pri žalúdočných a črevných chorobách, pri hnačkách, posilňujú imunitný systém a sú vhodné pri rekonvalescencii. Na tento účel sa vyrábajú aj komp´ty a sirupy, pretože surové dtienky bývajú sladkokyslé, nezrelé sú trpké. Najčastejšia forma liečiva je prášok zo sušených plodov, ktorý sa užíva po lyžičkách albo sa z neho pripravuje odvar. Odvar z čerstvej kôry, ktorá obsahuje triesloviny, jablčnan vápenatý, pektín a ďalšie látky, pomáha pri žalúdočných ochoreniach a črevných kataroch. Potlčené lístie vo forme obkladu zmierňuje zápaly rán, a to aj zle sa hojacich a hnisavých.",
+            fandly:"Rozdrv listy drieňa a prilož ich na ranu, zmierňujú horúčku; uvar s octom a podrž teplé v ústach, hoja veľkú bolesť zubov. Zomeľ drienky, zmiešaj ich s myrhovým olejom a s vodou vytlačenou z nezrelého hrozna, urob náplasť a prilož ju na žalúdok tým, čo vracajú, i bude im to veľmi na osoh. Podobný účinok bude mať aj na tých, čo majú pokazený žalúdok, bežanie brucha a riedku stolicu. Osoží aj ženám, z ktorých sa krv len tak leje alebo ktoré majú veľký krvotok. Ony si musia priložiť náplasť zozadu na kríže spredu na lono.",
         },
         recept:{
-            nazov:"",
-            ingrediencie:["", ""],
-            priprava:""
+            nazov:"Odvar zo sušených drienok",
+            ingrediencie:["8 g podrvených sušených drienok", "200 - 250 ml vody"],
+            priprava:"Sušené drienky zalejeme studenou vodou a uvedieme do varu. PO 3 minútach odstavíme, necháme ochladnúť a popíjame tri razy denne pred každým jedlom. Odporúča sa pri chorobnom potení, močovej inkontinencii alebo priveľmi hojnom močení, zabraňuje predčasnému výronu semena a tlmí niektoré typy závratov, hučanie v ušiach a alergie."
         },
         upozornenie:{
-            x:0,
-            text:""
+            x:1,
+            text:"Drienky by sa nemali podávať pri vysokých teplotách, silných hnačkách a pri bolestivom, namáhavom močení."
         }
     },
     
     {
         zaklad:{
             nazov:"Dub letný",
-            latinsky:"",
+            latinsky:"Quercus robur",
             strana:""
         },
         opis:{
-            popis:"",
-            vyskyt:""
+            popis:"Dub je mohutný listnatý dlhoveký strom, ktorý sa výnimočne môže dožiť aj vyše 1 000 rokov. Dosahuje výšku 50 m a vytvára rozložitú nepravidelnú korunu s pokrivenými konármi. Mladá borka je lesklá, stribristosivá až hnedastá, neskôr je nahrubo rozpukaná, hnedo- až čiernosivá. Listy sú krátko stopkaté, tuhé a kožovité. Kvety sp jednodomé, samičie vyrastajú na dlhých stopkách po 2 až 5 z pazúch listov, samčie kvety vytvárajú prevísajúce jahňady. Kvitne od mája do júna. Plody sú veľkú jednosemenné nažky - žalude.",
+            vyskyt:"Dub je rozšírený v celej európe. U nás sa mu darí od nížin (lužné lesy) po úpätia hôr, rastie v pôvodných dúbravách aj v zmiešaných lesoch,ako významná lesohospodárska drevina sa obyčajne vysádza."
         },
         zber:{
             mesiace:["", ""],
             casti:["", ""],
-            text:""
+            text:"Najvýznamnejší liečivý účinok má mladá kôra nazbieraná v marci až apríli, keď je lesklá a hladká. Kôra sa odlupuje z nakrájaných konárov a ľahko sa suší na slnku v hrubších vrstvách alebo v otiepkach. Umelo ju dosúšame pri teplote 40 až 50°C. Na zber sú najvhodnejšie zoťaté mladé stromy vyradené pri prebierke. V marci až apríli z prebierky lesných porastov získavame i púčiky. Kedysi si ich veľmi cenili okrem nich trhali a používali aj čerstvé listy. Ich aplikácia je podobná ako pri kôre, obsahujú však menej účinných látok. V septembri zbierame žalude. Dosúšame ich, pražíme a melieme na žaluďovú múku."
         },
         liecba:{
-            liecitelstvo:"",
-            fandly:"",
+            liecitelstvo:"Mladá dubová kôra pôsobí zvieravo a protizápalovo, užíva sa najmä pri hnačkách a pri zápaloch tráviacej sústavy, bráni prieniku nákazy z tráviacej sústavy do močových ciest a pohlavných orgánov. Zvonka možno dubovú kôru použiť pri hemoroidoch vo forme kúpeľov, veľmi účinný býva aj klystír. Kúpele zároveň zmierňujú opuchy, kožné zápaly, zmierňujú a liečia prejavy atopického ekzému, slabšie popáleniny a omrzliny, ďalej potláčajú potenie a zapáchanie nôh, likvidujú plesne. kloktanie odvaru z dubovej kôry sa odporúča pri zápaloch ústnej dutiny, paradentóze alebo pri infekciách v hrdle. Žalude obsahujú okrem trieslovín aj množstvo škrobu, cukry, bielkoviny a olej. Pražením sa obsah trieslovín znižuje a dajú sa jesť. Už v staroveku sa ich zvieravý účinok využíval pri žalúdočných ťažkostiach, dyzentérii, chrlení krvi a ako protijed pri otravách.",
+            fandly:"Dubové listy alebo strednú časť dubovej kôry uvar vo víne alebo vo vode a nepochybne zastavíš každé bežanie brucha [hnačku], ženský krvotok, vykašlávanie krvi, červienku  [dyzentériu] a semenotok. Pri červienke malých detí veľmi dobre poslúži voda pálená z mladých dubov… Vhodná je aj pre tých, čo majú záduch a kašlú krv.",
         },
         recept:{
-            nazov:"",
-            ingrediencie:["", ""],
-            priprava:""
+            nazov:"Kloktadlo zo žaluďov",
+            ingrediencie:["za hrsť zrelých žaluďov", "1/2 l vody"],
+            priprava:"Zrelé žalude varíme vo vode 20 minút, potom ich necháme postáť. Odvar precedíme a zriedime vodou v pomere 1 : 1. Kloktáme pri bolestiach v hrdle, zápaloch ústnej sliznice a hrtana."
         },
         upozornenie:{
             x:0,
@@ -923,26 +923,26 @@ var register = [
     {
         zaklad:{
             nazov:"Dula podlhovastá",
-            latinsky:"",
+            latinsky:"Cydonia oblonga",
             strana:""
         },
         opis:{
-            popis:"",
-            vyskyt:""
+            popis:"Niekedy je dula malý, 4 až 6 m vysoký strom, inokedy si zachováva formu kra. Jednoduché listy sú stopkaté, široko oválne, na líci holé, na rube plstnaté, na zimu opadávajú. Kvaty vyrastajú na vrchole mladých konárov, sú nápadné, biele alebo bledoružové, veľké 5 - 8 cm. Kvitne od mája do júna. Plod je žltá guľovitá až hruškovitá, na povrchu plstnatá malvica.",
+            vyskyt:"Domovom duly je oblasť zakaukazských štátov, Iránu a Turkménska. Zdomácnela na celom svete okrem Austrálie. Do Európy sa rozšírila v stredoveku, keď ju s obľubou vysádzali v kláštorných a zámockých záhradách. Odtieľ na niektorých miestach splanela a dnes voľne rastie napríklad v okolí Limbachu, Čachtíc, Prievidze, v Slovenskom krase a pod."
         },
         zber:{
             mesiace:["", ""],
             casti:["", ""],
-            text:""
+            text:"V liečiteľstve sa využívajú semená, získavajú sa ako vedľajší produkt pri kuchynskom spracovaní plodov. Nechávajú sa vyschnúť v tieni, dosúšať sa môžu umelo pri teplote do 50°C. sp náchylné na plesnivenie, preto musia byť celkom suché. Plody sa využívajú v kuchyni, zavárajú sa na viacero spôsobov alebo sa sušia."
         },
         liecba:{
-            liecitelstvo:"",
-            fandly:"",
+            liecitelstvo:"Semená obsahujú veľké množstvo slizu, ktorý sa získava macerovaním v studenej vode a vnútorne pôsobí preháňavo, zvonka má blahoarné účinky na pokožku. Zmäkčuje a chladí, preto sa používa na liečenie zápalov, oparov, zaparenín, popálenín, popraskaných prsných bradaviek alebo na odstraňovanie opuchov. Výťažok zo semien je vhodný aj na ošetrenie citlivej pokožky okolo očí, na omrzliny, jazvy či na vysušenú a zapálenú kožu. Voňavé plody duly sa niekedy nazývajú aj „Venušine jablká”. Sú zdrojom celého radu využiteľných látok, napríklad cukrov, pektínov, éterických olejov, trieslovín, organických kyselín, minerálnych látok a vitamínov. Odporúčajú sa pri žalúdočných a tráviacich ťažkostiach, pomáhajú pri bolestiach v hrdle. Usušené plátky plodov sa dajú žuvať na odstránenie zápachu z úst. Varené duly upokojujú a hoja zapálené rany a vredy, na ktoré sa prikladajú vo forme kašovitého obkladu.",
+            fandly:"Jadrá z plodov dule máčaj vo vode z černohlávka, až kým nenapučia, a potom ich podrž v ústach. Keď nimi natrieš jazyk, pôsobia ptoti pálčivej chorobe a zmierňujú infekciu. Vodou sa môže vyplakovať, gargarizovať aj hrdlo. Dule, upečené a posypané cukrom, osožia žalúdku, zastavujú stupňovanie matky [maternice], odstraňujú nechuť do jedenia ochladzujú telo a zastavujú všelijaké tečenie a bežanie brucha [hnačku]. Pomáhajú aj tým, čo vykašlávajú krv. Náplasť zo surových dpl priložená na žalúdok mierni častú a veľkú stolicu a uháša horúčosť žalúdka.",
         },
         recept:{
-            nazov:"",
-            ingrediencie:["", ""],
-            priprava:""
+            nazov:"Dulová pleťová maska",
+            ingrediencie:["plody duly", "50 % lieh"],
+            priprava:"Plody nakrájame na tenké plátky, vložíme do fľaše a zalejeme liehom tak, aby boli ponorné. Zakryté necháme týždeň lúhovať a potom precedíme cez sitko. Do výťažku namočíme vatu, na 15 minút ju priložíme na tvár a potom pleť umyjeme vlažnou vodou. Maska je výborná na rozšírené póry."
         },
         upozornenie:{
             x:0,
