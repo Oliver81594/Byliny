@@ -31,7 +31,7 @@ function pridajEl(klas){   //funkcia prida element s nazvom rastliny - klas(clas
         meno = document.createElement("a");
         meno.className = "list-group-item list-group-item-action";
         meno.className = "list-group-item list-group-item-action " + klas;
-        meno.href = "Bylina/bylina.php";
+        meno.href = "bylina/offline/bylina.html";
         meno.textContent = zoznam[i][0];
         meno.setAttribute("id", zoznam[i][0]);
         meno.addEventListener("click", priradID);

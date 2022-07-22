@@ -6,16 +6,18 @@
         <meta name="description" content="Byliny">
         <meta name="author" content="Oliver Kurnava">
         <meta name="generator" content="Jekyll v4.1.1">
+        <meta name="theme-color" content="#317EFB">
         <title>Byliny</title>
-
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-        <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+        <link rel="icon" type="image/x-icon" href="../../img/favicon.ico">
+        <link rel="manifest" href="../../manifest.json">
 
 
         <!-- Custom styles for this template -->
-        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../style.css">
     </head>
     <body>
+      <br>
         <center>
           <div id="telo">
             <div id="header">
@@ -118,7 +120,7 @@
         <div class="form-check form-switch switch">
           <form action="bylina.php" method="post">
             <input type="checkbox" name="obrazky_check" id="done" value="1" onclick="submit();" class="form-check-input" role="switch" id="flexSwitchCheckDefault">
-            <label class="form-check-label" for="flexSwitchCheckDefault">Zobrazenie obrázkov</label>
+            <label class="form-check-label" for="flexSwitchCheckDefault">Zobraziť obrázky</label>
           </form>
         </div>
         <br>
@@ -127,9 +129,9 @@
         <br>
         <br>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="../register.js"></script>
-        <script src="bylina.js"></script>
+        <script src="../../register.js"></script>
+        <script src="../bylina.js"></script>
+        <script src="../../js/disclaimer.js" defer></script>
         <?php
           if(isset($_POST['obrazky_check'])){
             include "obrazky.php";

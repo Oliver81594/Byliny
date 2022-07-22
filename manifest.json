@@ -1,0 +1,16 @@
+{
+    "name":"Byliny",
+    "short_name":"Byliny",
+    "start_url":"./",
+    "icons":[
+        {
+            "src": "./img/logo.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }
+    ],
+    "orientation":"portrait",
+    "display":"fullscreen",
+    "background_color":"#fff",
+    "theme_color":"#00d1b2"
+}
